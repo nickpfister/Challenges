@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol NPChallenge <NSObject>
-- (void)solve;
+- (NSArray*)solveForInput:(NSArray*)input;
 @end
 
 NS_ASSUME_NONNULL_END

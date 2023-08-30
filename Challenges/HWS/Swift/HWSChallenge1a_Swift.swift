@@ -6,24 +6,19 @@
 //
 
 @objc class HWSChallenge1a_Swift: NSObject, NPChallenge {
-    func solve() {
-        printResult(forInput: "No duplicates")
-        printResult(forInput: "abcdefghijklmnopqrstuvwxyz")
-        printResult(forInput: "Hello, world!")
-    }
-    
-    func printResult(forInput input: String) {
-        let result = foundDuplicateCharacters(inText: input)
-        if result {
-            print("Text \"\(input)\" contains duplicate characters.")
-        } else {
-            print("Text \"\(input)\" does not contain duplicate characters.")
+    func solve(forInput input: [Any]) -> [Any] {
+        let stringInput = input.map({$0 as! String})
+        var output = [Bool]()
+        for str in stringInput {
+            output.append(foundDuplicateCharacters(inString: str))
         }
+        
+        return output
     }
     
-    func foundDuplicateCharacters(inText text: String) -> Bool {
+    func foundDuplicateCharacters(inString str: String) -> Bool {
         var uniqueCharacters = Set<Character>()
-        for letter in text {
+        for letter in str {
             let (inserted, _) = uniqueCharacters.insert(letter)
             if !inserted { return true }
         }

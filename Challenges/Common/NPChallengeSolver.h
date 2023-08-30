@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NPChallengeSolver : NSObject
-+ (void)solveChallenge:(id<NPChallenge>)challenge;
++ (void)solveChallenge:(id<NPChallenge>)challenge forInput:(NSArray*)input;
 @end
 
 NS_ASSUME_NONNULL_END

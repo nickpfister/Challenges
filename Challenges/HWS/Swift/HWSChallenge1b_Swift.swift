@@ -6,7 +6,7 @@
 //
 
 @objc class HWSChallenge1b_Swift: HWSChallenge1a_Swift {
-    override func foundDuplicateCharacters(inText text: String) -> Bool {
-        return Set(text).count == text.count
+    override func foundDuplicateCharacters(inString str: String) -> Bool {
+        return Set(str).count != str.count
     }
 }

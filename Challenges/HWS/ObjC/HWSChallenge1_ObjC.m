@@ -8,30 +8,22 @@
 #import "HWSChallenge1_ObjC.h"
 
 @implementation HWSChallenge1_ObjC
-
-- (void)solve {
-    [self printResultForInput:@"No duplicates"];
-    [self printResultForInput:@"abcdefghijklmnopqrstuvwxyz"];
-    [self printResultForInput:@"Hello, world!"];
-}
-
-- (void)printResultForInput:(NSString*)input {
-    BOOL result = [self foundDuplicateCharactersInText:input];
-    if(result) {
-        printf("Text \%s\" contains duplicate characters.\n", [input cStringUsingEncoding:NSUTF8StringEncoding]);
-    } else {
-        printf("Text \"%s\" does not contain duplicate characters.\n", [input cStringUsingEncoding:NSUTF8StringEncoding]);
+- (NSArray*)solveForInput:(NSArray *)input {
+    NSMutableArray* output = [NSMutableArray new];
+    for(NSString* stringInput in input){
+        [output addObject:[self foundDuplicateCharactersInString:stringInput]];
     }
+    
+    return [[NSArray alloc] initWithArray:output];
 }
 
-- (BOOL)foundDuplicateCharactersInText:(NSString*)text {
+- (NSNumber*)foundDuplicateCharactersInString:(NSString*)str {
     NSMutableSet* set = [NSMutableSet new];
-    for(NSUInteger i = 0; i < [text length]; i++){
-        NSString* subString = [[NSString alloc] initWithFormat:@"%c",[text characterAtIndex:i]];
+    for(NSUInteger i = 0; i < [str length]; i++){
+        NSString* subString = [[NSString alloc] initWithFormat:@"%c",[str characterAtIndex:i]];
         [set addObject:subString];
     }
     
-    return [text length] != [set count];
+    return [[NSNumber alloc] initWithBool:[str length] != [set count]];
 }
-
 @end
