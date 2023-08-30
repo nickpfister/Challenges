@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		BEBA1E722A9DF99400F8815F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E712A9DF99400F8815F /* main.m */; };
+		BEBA1E822A9E007200F8815F /* NPChallengeSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E812A9E007200F8815F /* NPChallengeSolver.m */; };
+		BEBA1E862A9E04E200F8815F /* HWSChallenge1a_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E852A9E04E200F8815F /* HWSChallenge1a_Swift.swift */; };
+		BEBA1E8C2A9F1ECA00F8815F /* HWSChallenge1b_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E8B2A9F1ECA00F8815F /* HWSChallenge1b_Swift.swift */; };
+		BEBA1E8F2A9F2EC700F8815F /* HWSChallenge1_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E8E2A9F2EC700F8815F /* HWSChallenge1_ObjC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		BEBA1E6E2A9DF99400F8815F /* Challenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Challenges; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBA1E712A9DF99400F8815F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEBA1E802A9E007200F8815F /* NPChallengeSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPChallengeSolver.h; sourceTree = "<group>"; };
+		BEBA1E812A9E007200F8815F /* NPChallengeSolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPChallengeSolver.m; sourceTree = "<group>"; };
+		BEBA1E832A9E009F00F8815F /* NPChallenge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPChallenge.h; sourceTree = "<group>"; };
+		BEBA1E842A9E04E100F8815F /* Challenges-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Challenges-Bridging-Header.h"; sourceTree = "<group>"; };
+		BEBA1E852A9E04E200F8815F /* HWSChallenge1a_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge1a_Swift.swift; sourceTree = "<group>"; };
+		BEBA1E8B2A9F1ECA00F8815F /* HWSChallenge1b_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge1b_Swift.swift; sourceTree = "<group>"; };
+		BEBA1E8D2A9F2EC700F8815F /* HWSChallenge1_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenge1_ObjC.h; sourceTree = "<group>"; };
+		BEBA1E8E2A9F2EC700F8815F /* HWSChallenge1_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge1_ObjC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,49 @@
 		BEBA1E702A9DF99400F8815F /* Challenges */ = {
 			isa = PBXGroup;
 			children = (
+				BEBA1E792A9DFAB200F8815F /* Common */,
+				BEBA1E782A9DFA4400F8815F /* HWS */,
 				BEBA1E712A9DF99400F8815F /* main.m */,
 			);
 			path = Challenges;
+			sourceTree = "<group>";
+		};
+		BEBA1E782A9DFA4400F8815F /* HWS */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA1E872A9E060900F8815F /* ObjC */,
+				BEBA1E882A9E061000F8815F /* Swift */,
+			);
+			path = HWS;
+			sourceTree = "<group>";
+		};
+		BEBA1E792A9DFAB200F8815F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA1E842A9E04E100F8815F /* Challenges-Bridging-Header.h */,
+				BEBA1E802A9E007200F8815F /* NPChallengeSolver.h */,
+				BEBA1E812A9E007200F8815F /* NPChallengeSolver.m */,
+				BEBA1E832A9E009F00F8815F /* NPChallenge.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BEBA1E872A9E060900F8815F /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA1E8D2A9F2EC700F8815F /* HWSChallenge1_ObjC.h */,
+				BEBA1E8E2A9F2EC700F8815F /* HWSChallenge1_ObjC.m */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		BEBA1E882A9E061000F8815F /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA1E852A9E04E200F8815F /* HWSChallenge1a_Swift.swift */,
+				BEBA1E8B2A9F1ECA00F8815F /* HWSChallenge1b_Swift.swift */,
+			);
+			path = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +145,7 @@
 				TargetAttributes = {
 					BEBA1E6D2A9DF99400F8815F = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -120,6 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEBA1E722A9DF99400F8815F /* main.m in Sources */,
+				BEBA1E8F2A9F2EC700F8815F /* HWSChallenge1_ObjC.m in Sources */,
+				BEBA1E8C2A9F1ECA00F8815F /* HWSChallenge1b_Swift.swift in Sources */,
+				BEBA1E862A9E04E200F8815F /* HWSChallenge1a_Swift.swift in Sources */,
+				BEBA1E822A9E007200F8815F /* NPChallengeSolver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,20 +295,27 @@
 		BEBA1E762A9DF99400F8815F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62VPKU8FKF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Challenges/Common/Challenges-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		BEBA1E772A9DF99400F8815F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62VPKU8FKF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Challenges/Common/Challenges-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

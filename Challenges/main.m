@@ -6,11 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NPChallengeSolver.h"
+#import "HWSChallenge1_ObjC.h"
+#import <Challenges-Swift.h>
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        [NPChallengeSolver solveChallenge:[HWSChallenge1_ObjC new]];
     }
     return 0;
 }
