@@ -1,13 +1,13 @@
 //
-//  HWSChallenge2_ObjC.m
+//  HWSChallenge02_ObjC.m
 //  Challenges
 //
 //  Created by Nick Pfister on 8/30/23.
 //
 
-#import "HWSChallenge2_ObjC.h"
+#import "HWSChallenge02_ObjC.h"
 
-@implementation HWSChallenge2_ObjC
+@implementation HWSChallenge02_ObjC
 - (NSArray*)solveForInput:(NSArray*)input {
     NSMutableArray* output = [NSMutableArray new];
     for(NSString* stringInput in input){

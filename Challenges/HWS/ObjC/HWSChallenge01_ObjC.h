@@ -1,5 +1,5 @@
 //
-//  HWSChallenge2_ObjC.h
+//  HWSChallenge01_ObjC.h
 //  Challenges
 //
 //  Created by Nick Pfister on 8/30/23.
@@ -10,7 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HWSChallenge2_ObjC : NSObject <NPChallenge>
+@interface HWSChallenge01_ObjC : NSObject <NPChallenge>
+
 @end
 
 NS_ASSUME_NONNULL_END

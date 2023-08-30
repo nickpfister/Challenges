@@ -5,9 +5,9 @@
 //  Created by Nick Pfister on 8/30/23.
 //
 
-#import "HWSChallenge1_ObjC.h"
+#import "HWSChallenge01_ObjC.h"
 
-@implementation HWSChallenge1_ObjC
+@implementation HWSChallenge01_ObjC
 - (NSArray*)solveForInput:(NSArray *)input {
     NSMutableArray* output = [NSMutableArray new];
     for(NSString* stringInput in input){

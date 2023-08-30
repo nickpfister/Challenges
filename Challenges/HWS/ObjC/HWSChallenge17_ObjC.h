@@ -1,16 +1,15 @@
 //
-//  HWSChallenge1_ObjC.h
+//  HWSChallenge17_ObjC.h
 //  Challenges
 //
 //  Created by Nick Pfister on 8/30/23.
 //
 
 #import <Foundation/Foundation.h>
-#import "NPChallenge.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HWSChallenge1_ObjC : NSObject <NPChallenge>
+@interface HWSChallenge17_ObjC : NSObject
 
 @end
 
