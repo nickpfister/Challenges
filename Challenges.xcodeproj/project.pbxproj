@@ -15,6 +15,7 @@
 		BEBA1E922A9F485600F8815F /* HWSChallenge02_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E912A9F485600F8815F /* HWSChallenge02_ObjC.m */; };
 		BEBA1E942A9F4B1200F8815F /* HWSChallenge02_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E932A9F4B1200F8815F /* HWSChallenge02_Swift.swift */; };
 		BECA1DF52A9FCD380066F994 /* HWSChallenge17_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BECA1DF42A9FCD380066F994 /* HWSChallenge17_ObjC.m */; };
+		BECA1DF72A9FD71A0066F994 /* HWSChallenge17_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECA1DF62A9FD71A0066F994 /* HWSChallenge17_Swift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		BEBA1E932A9F4B1200F8815F /* HWSChallenge02_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge02_Swift.swift; sourceTree = "<group>"; };
 		BECA1DF32A9FCD380066F994 /* HWSChallenge17_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenge17_ObjC.h; sourceTree = "<group>"; };
 		BECA1DF42A9FCD380066F994 /* HWSChallenge17_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge17_ObjC.m; sourceTree = "<group>"; };
+		BECA1DF62A9FD71A0066F994 /* HWSChallenge17_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge17_Swift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,11 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				BEBA1E8D2A9F2EC700F8815F /* HWSChallenge01_ObjC.h */,
-				BECA1DF32A9FCD380066F994 /* HWSChallenge17_ObjC.h */,
-				BECA1DF42A9FCD380066F994 /* HWSChallenge17_ObjC.m */,
 				BEBA1E8E2A9F2EC700F8815F /* HWSChallenge01_ObjC.m */,
 				BEBA1E902A9F485600F8815F /* HWSChallenge02_ObjC.h */,
 				BEBA1E912A9F485600F8815F /* HWSChallenge02_ObjC.m */,
+				BECA1DF32A9FCD380066F994 /* HWSChallenge17_ObjC.h */,
+				BECA1DF42A9FCD380066F994 /* HWSChallenge17_ObjC.m */,
 			);
 			path = ObjC;
 			sourceTree = "<group>";
@@ -123,6 +125,7 @@
 				BEBA1E852A9E04E200F8815F /* HWSChallenge01a_Swift.swift */,
 				BEBA1E8B2A9F1ECA00F8815F /* HWSChallenge01b_Swift.swift */,
 				BEBA1E932A9F4B1200F8815F /* HWSChallenge02_Swift.swift */,
+				BECA1DF62A9FD71A0066F994 /* HWSChallenge17_Swift.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				BEBA1E722A9DF99400F8815F /* main.m in Sources */,
 				BEBA1E8F2A9F2EC700F8815F /* HWSChallenge01_ObjC.m in Sources */,
 				BECA1DF52A9FCD380066F994 /* HWSChallenge17_ObjC.m in Sources */,
+				BECA1DF72A9FD71A0066F994 /* HWSChallenge17_Swift.swift in Sources */,
 				BEBA1E942A9F4B1200F8815F /* HWSChallenge02_Swift.swift in Sources */,
 				BEBA1E8C2A9F1ECA00F8815F /* HWSChallenge01b_Swift.swift in Sources */,
 				BEBA1E922A9F485600F8815F /* HWSChallenge02_ObjC.m in Sources */,

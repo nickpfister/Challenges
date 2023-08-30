@@ -8,7 +8,7 @@
 #import "HWSChallenge01_ObjC.h"
 
 @implementation HWSChallenge01_ObjC
-- (NSArray*)solveForInput:(NSArray *)input {
+- (nullable NSArray*)solveForInput:(nullable NSArray *)input {
     NSMutableArray* output = [NSMutableArray new];
     for(NSString* stringInput in input){
         [output addObject:[self foundDuplicateCharactersInString:stringInput]];

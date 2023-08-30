@@ -6,8 +6,8 @@
 //
 
 @objc class HWSChallenge02_Swift: NSObject, NPChallenge {
-    func solve(forInput input: [Any]) -> [Any] {
-        let stringInput = input.map({$0 as! String})
+    func solve(forInput input: [Any]?) -> [Any]? {
+        let stringInput = input!.map({$0 as! String})
         var output = [Bool]()
         for str in stringInput {
             output.append(stringIsPalindrome(str))

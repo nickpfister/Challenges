@@ -6,10 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NPChallenge.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HWSChallenge17_ObjC : NSObject
+@interface HWSChallenge17_ObjC : NSObject <NPChallenge>
 
 @end
 
