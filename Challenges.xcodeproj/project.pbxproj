@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE5748B42AA277B5001E54C6 /* HWSChallenge03_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5748B32AA277B5001E54C6 /* HWSChallenge03_ObjC.m */; };
+		BE5748B62AA32781001E54C6 /* HWSChallenge03_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5748B52AA32781001E54C6 /* HWSChallenge03_Swift.swift */; };
+		BE5748BC2AA32B07001E54C6 /* HWSChallenge04_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5748BB2AA32B07001E54C6 /* HWSChallenge04_ObjC.m */; };
+		BE5748C12AA32CD3001E54C6 /* NSString+FuzzyContains.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5748C02AA32CD3001E54C6 /* NSString+FuzzyContains.m */; };
+		BE5748C32AA334E8001E54C6 /* HWSChallenge04_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5748C22AA334E8001E54C6 /* HWSChallenge04_Swift.swift */; };
+		BE5748C62AA33557001E54C6 /* String+FuzzyContains.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5748C52AA33557001E54C6 /* String+FuzzyContains.swift */; };
 		BEBA1E722A9DF99400F8815F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E712A9DF99400F8815F /* main.m */; };
 		BEBA1E822A9E007200F8815F /* NPChallengeSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E812A9E007200F8815F /* NPChallengeSolver.m */; };
 		BEBA1E862A9E04E200F8815F /* HWSChallenge01a_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E852A9E04E200F8815F /* HWSChallenge01a_Swift.swift */; };
@@ -31,6 +37,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE5748B22AA277B5001E54C6 /* HWSChallenge03_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenge03_ObjC.h; sourceTree = "<group>"; };
+		BE5748B32AA277B5001E54C6 /* HWSChallenge03_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge03_ObjC.m; sourceTree = "<group>"; };
+		BE5748B52AA32781001E54C6 /* HWSChallenge03_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge03_Swift.swift; sourceTree = "<group>"; };
+		BE5748B72AA32A03001E54C6 /* HWSChallenges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenges.h; sourceTree = "<group>"; };
+		BE5748BA2AA32B07001E54C6 /* HWSChallenge04_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenge04_ObjC.h; sourceTree = "<group>"; };
+		BE5748BB2AA32B07001E54C6 /* HWSChallenge04_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge04_ObjC.m; sourceTree = "<group>"; };
+		BE5748BF2AA32CD3001E54C6 /* NSString+FuzzyContains.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+FuzzyContains.h"; sourceTree = "<group>"; };
+		BE5748C02AA32CD3001E54C6 /* NSString+FuzzyContains.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+FuzzyContains.m"; sourceTree = "<group>"; };
+		BE5748C22AA334E8001E54C6 /* HWSChallenge04_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge04_Swift.swift; sourceTree = "<group>"; };
+		BE5748C52AA33557001E54C6 /* String+FuzzyContains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+FuzzyContains.swift"; sourceTree = "<group>"; };
 		BEBA1E6E2A9DF99400F8815F /* Challenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Challenges; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBA1E712A9DF99400F8815F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BEBA1E802A9E007200F8815F /* NPChallengeSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPChallengeSolver.h; sourceTree = "<group>"; };
@@ -60,6 +76,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE5748BD2AA32BBD001E54C6 /* HWSChallenge04 */ = {
+			isa = PBXGroup;
+			children = (
+				BE5748BF2AA32CD3001E54C6 /* NSString+FuzzyContains.h */,
+				BE5748C02AA32CD3001E54C6 /* NSString+FuzzyContains.m */,
+			);
+			path = HWSChallenge04;
+			sourceTree = "<group>";
+		};
+		BE5748C42AA3352C001E54C6 /* HWSChallenge04 */ = {
+			isa = PBXGroup;
+			children = (
+				BE5748C52AA33557001E54C6 /* String+FuzzyContains.swift */,
+			);
+			path = HWSChallenge04;
+			sourceTree = "<group>";
+		};
 		BEBA1E652A9DF99400F8815F = {
 			isa = PBXGroup;
 			children = (
@@ -113,8 +146,14 @@
 				BEBA1E8E2A9F2EC700F8815F /* HWSChallenge01_ObjC.m */,
 				BEBA1E902A9F485600F8815F /* HWSChallenge02_ObjC.h */,
 				BEBA1E912A9F485600F8815F /* HWSChallenge02_ObjC.m */,
+				BE5748B22AA277B5001E54C6 /* HWSChallenge03_ObjC.h */,
+				BE5748B32AA277B5001E54C6 /* HWSChallenge03_ObjC.m */,
+				BE5748BD2AA32BBD001E54C6 /* HWSChallenge04 */,
+				BE5748BA2AA32B07001E54C6 /* HWSChallenge04_ObjC.h */,
+				BE5748BB2AA32B07001E54C6 /* HWSChallenge04_ObjC.m */,
 				BECA1DF32A9FCD380066F994 /* HWSChallenge17_ObjC.h */,
 				BECA1DF42A9FCD380066F994 /* HWSChallenge17_ObjC.m */,
+				BE5748B72AA32A03001E54C6 /* HWSChallenges.h */,
 			);
 			path = ObjC;
 			sourceTree = "<group>";
@@ -125,6 +164,9 @@
 				BEBA1E852A9E04E200F8815F /* HWSChallenge01a_Swift.swift */,
 				BEBA1E8B2A9F1ECA00F8815F /* HWSChallenge01b_Swift.swift */,
 				BEBA1E932A9F4B1200F8815F /* HWSChallenge02_Swift.swift */,
+				BE5748B52AA32781001E54C6 /* HWSChallenge03_Swift.swift */,
+				BE5748C22AA334E8001E54C6 /* HWSChallenge04_Swift.swift */,
+				BE5748C42AA3352C001E54C6 /* HWSChallenge04 */,
 				BECA1DF62A9FD71A0066F994 /* HWSChallenge17_Swift.swift */,
 			);
 			path = Swift;
@@ -188,15 +230,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE5748C32AA334E8001E54C6 /* HWSChallenge04_Swift.swift in Sources */,
+				BE5748C62AA33557001E54C6 /* String+FuzzyContains.swift in Sources */,
 				BEBA1E722A9DF99400F8815F /* main.m in Sources */,
 				BEBA1E8F2A9F2EC700F8815F /* HWSChallenge01_ObjC.m in Sources */,
 				BECA1DF52A9FCD380066F994 /* HWSChallenge17_ObjC.m in Sources */,
 				BECA1DF72A9FD71A0066F994 /* HWSChallenge17_Swift.swift in Sources */,
 				BEBA1E942A9F4B1200F8815F /* HWSChallenge02_Swift.swift in Sources */,
+				BE5748B62AA32781001E54C6 /* HWSChallenge03_Swift.swift in Sources */,
+				BE5748C12AA32CD3001E54C6 /* NSString+FuzzyContains.m in Sources */,
+				BE5748BC2AA32B07001E54C6 /* HWSChallenge04_ObjC.m in Sources */,
 				BEBA1E8C2A9F1ECA00F8815F /* HWSChallenge01b_Swift.swift in Sources */,
 				BEBA1E922A9F485600F8815F /* HWSChallenge02_ObjC.m in Sources */,
 				BEBA1E862A9E04E200F8815F /* HWSChallenge01a_Swift.swift in Sources */,
 				BEBA1E822A9E007200F8815F /* NPChallengeSolver.m in Sources */,
+				BE5748B42AA277B5001E54C6 /* HWSChallenge03_ObjC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

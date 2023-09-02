@@ -1,0 +1,17 @@
+//
+//  HWSChallenges.h
+//  Challenges
+//
+//  Created by Nick Pfister on 9/2/23.
+//
+
+#ifndef HWSChallenges_h
+#define HWSChallenges_h
+
+#import "HWSChallenge01_ObjC.h"
+#import "HWSChallenge02_ObjC.h"
+#import "HWSChallenge03_ObjC.h"
+#import "HWSChallenge04_ObjC.h"
+#import "HWSChallenge17_ObjC.h"
+
+#endif /* HWSChallenges_h */
