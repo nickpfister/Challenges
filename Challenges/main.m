@@ -29,9 +29,21 @@ int main(int argc, const char * argv[]) {
         //[NPChallengeSolver solveChallenge:[HWSChallenge03_Swift new] forInput:hwsChallenge03Input];
         
         // HWS Challenge 4
-        NSArray *hwsChallenge04Input = @[@[@"Hello, world", @"Hello"], @[@"Hello, world", @"WORLD"], @[@"Hello, world", @"Goodble"]];
-        [NPChallengeSolver solveChallenge:[HWSChallenge04_ObjC new] forInput:hwsChallenge04Input];
-        [NPChallengeSolver solveChallenge:[HWSChallenge04_Swift new] forInput:hwsChallenge04Input];
+        //NSArray *hwsChallenge04Input = @[@[@"Hello, world", @"Hello"], @[@"Hello, world", @"WORLD"], @[@"Hello, world", @"Goodble"]];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge04_ObjC new] forInput:hwsChallenge04Input];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge04_Swift new] forInput:hwsChallenge04Input];
+        
+        // HWS Challenge 5
+        //NSArray *hwsChallenge05Input = @[@[@"a", @"The rain in Spain"],
+        //                                 @[@"i", @"Mississippi"],
+        //                                 @[@"i", @"Hacking with Swift"]];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge05_ObjC new] forInput:hwsChallenge05Input];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge05_Swift new] forInput:hwsChallenge05Input];
+        
+        // HWS Challenge 6
+        //NSArray *hwsChallenge06Input = @[@"Wombat", @"Hello", @"Mississippi"];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge06_ObjC new] forInput:hwsChallenge06Input];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge06_Swift new] forInput:hwsChallenge06Input];
         
         // HWS Challenge 17
         //NSArray* hwsChallenge17Input = @[@[@1, @5], @[@8, @10], @[@12, @12], @[@12, @18]];
