@@ -14,6 +14,7 @@
 #import "HWSChallenge04_ObjC.h"
 #import "HWSChallenge05_ObjC.h"
 #import "HWSChallenge06_ObjC.h"
+#import "HWSChallenge07_ObjC.h"
 #import "HWSChallenge17_ObjC.h"
 
 #endif /* HWSChallenges_h */

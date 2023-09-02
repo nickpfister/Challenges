@@ -45,6 +45,11 @@ int main(int argc, const char * argv[]) {
         //[NPChallengeSolver solveChallenge:[HWSChallenge06_ObjC new] forInput:hwsChallenge06Input];
         //[NPChallengeSolver solveChallenge:[HWSChallenge06_Swift new] forInput:hwsChallenge06Input];
         
+        // HWS Challenge 7
+        NSArray *hwsChallenge07Input = @[@"a   b   c", @"    a", @"abc"];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge07_ObjC new] forInput:hwsChallenge07Input];
+        [NPChallengeSolver solveChallenge:[HWSChallenge07_Swift new] forInput:hwsChallenge07Input];
+        
         // HWS Challenge 17
         //NSArray* hwsChallenge17Input = @[@[@1, @5], @[@8, @10], @[@12, @12], @[@12, @18]];
         //[NPChallengeSolver solveChallenge:[HWSChallenge17_ObjC new] forInput:hwsChallenge17Input];
