@@ -9,9 +9,9 @@ import Cocoa
 
 class HWSChallenge09_Swift: NSObject, NPChallenge {
     func solve(forInput input: [Any]?) -> [Any]? {
-        let stringInput = input!.map({$0 as! String})
+        let strArray = input!.map({$0 as! String})
         var output = [Bool]()
-        for str in stringInput {
+        for str in strArray {
             output.append(stringIsPangram(str))
         }
         

@@ -11,17 +11,16 @@
 
 - (nullable NSArray *)solveForInput:(nullable NSArray *)input { 
     NSMutableArray *output = [NSMutableArray new];
-    for(NSArray<NSString *> *strs in input){
-        [output addObject:[self stringsContainSameCharacters:strs]];
+    for(NSArray<NSString *> *strArray in input){
+        NSString *str1 = [strArray objectAtIndex:0];
+        NSString *str2 = [strArray objectAtIndex:1];
+        [output addObject:[self stringsContainSameCharacters:str1 otherString:str2]];
     }
     
     return [[NSArray alloc] initWithArray:output];
 }
 
-- (NSNumber *)stringsContainSameCharacters:(NSArray<NSString *> *)strs {
-    NSString *str1 = [strs objectAtIndex:0];
-    NSString *str2 = [strs objectAtIndex:1];
-    
+- (NSNumber *)stringsContainSameCharacters:(NSString *)str1 otherString:(NSString *)str2 {
     if([str1 length] != [str2 length]) {
         return @NO;
     }

@@ -11,8 +11,8 @@
 
 - (nullable NSArray *)solveForInput:(nullable NSArray *)input {
     NSMutableArray* output = [NSMutableArray new];
-    for(NSString* stringInput in input){
-        [output addObject:[self condensingWhitespaceInString:stringInput]];
+    for(NSString* str in input){
+        [output addObject:[self condensingWhitespaceInString:str]];
     }
     
     return [[NSArray alloc] initWithArray:output];

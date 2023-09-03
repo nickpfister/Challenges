@@ -9,11 +9,11 @@ import Cocoa
 
 class HWSChallenge08_Swift: NSObject, NPChallenge {
     func solve(forInput input: [Any]?) -> [Any]? {
-        let stringArrays = input!.map({$0 as! [String]})
+        let strArrays = input!.map({$0 as! [String]})
         var output = [Bool]()
-        for stringArray in stringArrays {
-            let str1 = stringArray[0]
-            let str2 = stringArray[1]
+        for strArray in strArrays {
+            let str1 = strArray[0]
+            let str2 = strArray[1]
             output.append(stringIsRotated(str1, otherString: str2))
         }
         

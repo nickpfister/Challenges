@@ -10,8 +10,8 @@
 @implementation HWSChallenge01_ObjC
 - (nullable NSArray*)solveForInput:(nullable NSArray *)input {
     NSMutableArray* output = [NSMutableArray new];
-    for(NSString* stringInput in input){
-        [output addObject:[self foundDuplicateCharactersInString:stringInput]];
+    for(NSString* str in input){
+        [output addObject:[self foundDuplicateCharactersInString:str]];
     }
     
     return [[NSArray alloc] initWithArray:output];

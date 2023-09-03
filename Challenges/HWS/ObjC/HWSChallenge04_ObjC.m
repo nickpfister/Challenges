@@ -12,9 +12,9 @@
 
 - (nullable NSArray *)solveForInput:(nullable NSArray *)input { 
     NSMutableArray *output = [NSMutableArray new];
-    for(NSArray<NSString *> *strs in input){
-        NSString *str1 = [strs objectAtIndex:0];
-        NSString *str2 = [strs objectAtIndex:1];
+    for(NSArray<NSString *> *strArray in input){
+        NSString *str1 = [strArray objectAtIndex:0];
+        NSString *str2 = [strArray objectAtIndex:1];
         [output addObject:[NSNumber numberWithBool:[str1 fuzzyContainsString:str2]]];
     }
     

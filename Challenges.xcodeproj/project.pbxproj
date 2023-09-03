@@ -206,8 +206,8 @@
 				BE5748CF2AA35B2F001E54C6 /* HWSChallenge06_Swift.swift */,
 				BE5748D42AA36E6E001E54C6 /* HWSChallenge07_Swift.swift */,
 				BE8E06332AA4BDA500D03150 /* HWSChallenge08_Swift.swift */,
-				BECA1DF62A9FD71A0066F994 /* HWSChallenge17_Swift.swift */,
 				BE8E06382AA4C26400D03150 /* HWSChallenge09_Swift.swift */,
+				BECA1DF62A9FD71A0066F994 /* HWSChallenge17_Swift.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";

@@ -11,9 +11,9 @@
 
 - (nullable NSArray *)solveForInput:(nullable NSArray *)input { 
     NSMutableArray* output = [NSMutableArray new];
-    for(NSArray<NSString *> *stringInputs in input){
-        NSString *str1 = [stringInputs objectAtIndex:0];
-        NSString *str2 = [stringInputs objectAtIndex:1];
+    for(NSArray<NSString *> *strArray in input){
+        NSString *str1 = [strArray objectAtIndex:0];
+        NSString *str2 = [strArray objectAtIndex:1];
         [output addObject:[NSNumber numberWithBool:[self stringIsRotated:str1 otherString:str2]]];
     }
     

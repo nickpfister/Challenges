@@ -7,10 +7,10 @@
 
 @objc class HWSChallenge17_Swift: NSObject, NPChallenge {
     func solve(forInput input: [Any]?) -> [Any]? {
-        let intInput = input!.map({$0 as! [Int]})
+        let intArrays = input!.map({$0 as! [Int]})
         
         var output = [Int]()
-        for intArray in intInput {
+        for intArray in intArrays {
             let range = intArray[0]..<(intArray[1] + 1)
             output.append(randomNumber(inRange: range))
         }

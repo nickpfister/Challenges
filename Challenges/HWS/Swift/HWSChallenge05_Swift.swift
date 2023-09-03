@@ -7,11 +7,11 @@
 
 @objc class HWSChallenge05_Swift: NSObject, NPChallenge {
     func solve(forInput input: [Any]?) -> [Any]? {
-        let pairs = input!.map({$0 as! [Any]})
+        let strArrays = input!.map({$0 as! [Any]})
         var output = [Int]()
-        for pair in pairs {
-            let chr = Character(pair[0] as! String)
-            let str = pair[1] as! String
+        for strArray in strArrays {
+            let chr = Character(strArray[0] as! String)
+            let str = strArray[1] as! String
             output.append(countOccurances(ofCharacter: chr, inString: str))
         }
         

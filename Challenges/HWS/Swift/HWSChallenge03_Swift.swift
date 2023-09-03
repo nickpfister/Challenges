@@ -7,23 +7,18 @@
 
 @objc class HWSChallenge03_Swift: NSObject, NPChallenge {
     func solve(forInput input: [Any]?) -> [Any]? {
-        let stringArrays = input!.map({$0 as! [String]})
+        let strArrays = input!.map({$0 as! [String]})
         var output = [Bool]()
-        for stringArray in stringArrays {
-            output.append(stringsContainSameCharacters(stringArray))
+        for strArray in strArrays {
+            let str1 = strArray[0]
+            let str2 = strArray[1]
+            output.append(stringsContainSameCharacters(str1, str2))
         }
         
         return output
     }
     
-    func stringsContainSameCharacters(_ stringArray: [String]) -> Bool{
-        guard stringArray.count == 2 else {
-            fatalError("Input must contain arrays containing exactly 2 strings")
-        }
-        
-        let str1 = stringArray[0]
-        let str2 = stringArray[1]
-        
+    func stringsContainSameCharacters(_ str1: String, _ str2: String) -> Bool{
         return str1.sorted() == str2.sorted()
     }
 }

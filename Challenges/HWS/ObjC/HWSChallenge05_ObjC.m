@@ -11,9 +11,9 @@
 
 - (nullable NSArray *)solveForInput:(nullable NSArray *)input { 
     NSMutableArray *output = [NSMutableArray new];
-    for(NSArray *strs in input){
-        char chr = [[strs objectAtIndex:0] characterAtIndex:0];
-        NSString *str = [strs objectAtIndex:1];
+    for(NSArray<NSString *> *strArray in input){
+        char chr = [[strArray objectAtIndex:0] characterAtIndex:0];
+        NSString *str = [strArray objectAtIndex:1];
         [output addObject:[NSNumber numberWithUnsignedInteger:[self countOccurancesOfCharacter:chr inString:str]]];
     }
     
