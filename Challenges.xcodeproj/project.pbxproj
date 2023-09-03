@@ -19,6 +19,10 @@
 		BE5748D02AA35B2F001E54C6 /* HWSChallenge06_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5748CF2AA35B2F001E54C6 /* HWSChallenge06_Swift.swift */; };
 		BE5748D32AA35E42001E54C6 /* HWSChallenge07_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5748D22AA35E42001E54C6 /* HWSChallenge07_ObjC.m */; };
 		BE5748D52AA36E6E001E54C6 /* HWSChallenge07_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5748D42AA36E6E001E54C6 /* HWSChallenge07_Swift.swift */; };
+		BE8E06322AA4B9F200D03150 /* HWSChallenge08_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8E06312AA4B9F200D03150 /* HWSChallenge08_ObjC.m */; };
+		BE8E06342AA4BDA500D03150 /* HWSChallenge08_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E06332AA4BDA500D03150 /* HWSChallenge08_Swift.swift */; };
+		BE8E06372AA4BECA00D03150 /* HWSChallenge09_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8E06362AA4BECA00D03150 /* HWSChallenge09_ObjC.m */; };
+		BE8E06392AA4C26400D03150 /* HWSChallenge09_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E06382AA4C26400D03150 /* HWSChallenge09_Swift.swift */; };
 		BEBA1E722A9DF99400F8815F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E712A9DF99400F8815F /* main.m */; };
 		BEBA1E822A9E007200F8815F /* NPChallengeSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E812A9E007200F8815F /* NPChallengeSolver.m */; };
 		BEBA1E862A9E04E200F8815F /* HWSChallenge01a_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E852A9E04E200F8815F /* HWSChallenge01a_Swift.swift */; };
@@ -62,6 +66,12 @@
 		BE5748D12AA35E42001E54C6 /* HWSChallenge07_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenge07_ObjC.h; sourceTree = "<group>"; };
 		BE5748D22AA35E42001E54C6 /* HWSChallenge07_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge07_ObjC.m; sourceTree = "<group>"; };
 		BE5748D42AA36E6E001E54C6 /* HWSChallenge07_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge07_Swift.swift; sourceTree = "<group>"; };
+		BE8E06302AA4B9F200D03150 /* HWSChallenge08_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenge08_ObjC.h; sourceTree = "<group>"; };
+		BE8E06312AA4B9F200D03150 /* HWSChallenge08_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge08_ObjC.m; sourceTree = "<group>"; };
+		BE8E06332AA4BDA500D03150 /* HWSChallenge08_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge08_Swift.swift; sourceTree = "<group>"; };
+		BE8E06352AA4BECA00D03150 /* HWSChallenge09_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenge09_ObjC.h; sourceTree = "<group>"; };
+		BE8E06362AA4BECA00D03150 /* HWSChallenge09_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge09_ObjC.m; sourceTree = "<group>"; };
+		BE8E06382AA4C26400D03150 /* HWSChallenge09_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge09_Swift.swift; sourceTree = "<group>"; };
 		BEBA1E6E2A9DF99400F8815F /* Challenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Challenges; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBA1E712A9DF99400F8815F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BEBA1E802A9E007200F8815F /* NPChallengeSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPChallengeSolver.h; sourceTree = "<group>"; };
@@ -172,6 +182,10 @@
 				BE5748CD2AA3511E001E54C6 /* HWSChallenge06_ObjC.m */,
 				BE5748D12AA35E42001E54C6 /* HWSChallenge07_ObjC.h */,
 				BE5748D22AA35E42001E54C6 /* HWSChallenge07_ObjC.m */,
+				BE8E06302AA4B9F200D03150 /* HWSChallenge08_ObjC.h */,
+				BE8E06312AA4B9F200D03150 /* HWSChallenge08_ObjC.m */,
+				BE8E06352AA4BECA00D03150 /* HWSChallenge09_ObjC.h */,
+				BE8E06362AA4BECA00D03150 /* HWSChallenge09_ObjC.m */,
 				BECA1DF32A9FCD380066F994 /* HWSChallenge17_ObjC.h */,
 				BECA1DF42A9FCD380066F994 /* HWSChallenge17_ObjC.m */,
 				BE5748B72AA32A03001E54C6 /* HWSChallenges.h */,
@@ -191,7 +205,9 @@
 				BE5748CA2AA33CF2001E54C6 /* HWSChallenge05_Swift.swift */,
 				BE5748CF2AA35B2F001E54C6 /* HWSChallenge06_Swift.swift */,
 				BE5748D42AA36E6E001E54C6 /* HWSChallenge07_Swift.swift */,
+				BE8E06332AA4BDA500D03150 /* HWSChallenge08_Swift.swift */,
 				BECA1DF62A9FD71A0066F994 /* HWSChallenge17_Swift.swift */,
+				BE8E06382AA4C26400D03150 /* HWSChallenge09_Swift.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -257,9 +273,11 @@
 				BE5748C32AA334E8001E54C6 /* HWSChallenge04_Swift.swift in Sources */,
 				BE5748C62AA33557001E54C6 /* String+FuzzyContains.swift in Sources */,
 				BEBA1E722A9DF99400F8815F /* main.m in Sources */,
+				BE8E06372AA4BECA00D03150 /* HWSChallenge09_ObjC.m in Sources */,
 				BEBA1E8F2A9F2EC700F8815F /* HWSChallenge01_ObjC.m in Sources */,
 				BE5748CE2AA3511E001E54C6 /* HWSChallenge06_ObjC.m in Sources */,
 				BE5748CB2AA33CF2001E54C6 /* HWSChallenge05_Swift.swift in Sources */,
+				BE8E06322AA4B9F200D03150 /* HWSChallenge08_ObjC.m in Sources */,
 				BECA1DF52A9FCD380066F994 /* HWSChallenge17_ObjC.m in Sources */,
 				BE5748D52AA36E6E001E54C6 /* HWSChallenge07_Swift.swift in Sources */,
 				BE5748D02AA35B2F001E54C6 /* HWSChallenge06_Swift.swift in Sources */,
@@ -274,7 +292,9 @@
 				BEBA1E922A9F485600F8815F /* HWSChallenge02_ObjC.m in Sources */,
 				BEBA1E862A9E04E200F8815F /* HWSChallenge01a_Swift.swift in Sources */,
 				BEBA1E822A9E007200F8815F /* NPChallengeSolver.m in Sources */,
+				BE8E06342AA4BDA500D03150 /* HWSChallenge08_Swift.swift in Sources */,
 				BE5748B42AA277B5001E54C6 /* HWSChallenge03_ObjC.m in Sources */,
+				BE8E06392AA4C26400D03150 /* HWSChallenge09_Swift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

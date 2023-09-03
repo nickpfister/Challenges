@@ -46,9 +46,22 @@ int main(int argc, const char * argv[]) {
         //[NPChallengeSolver solveChallenge:[HWSChallenge06_Swift new] forInput:hwsChallenge06Input];
         
         // HWS Challenge 7
-        NSArray *hwsChallenge07Input = @[@"a   b   c", @"    a", @"abc"];
+        //NSArray *hwsChallenge07Input = @[@"a   b   c", @"    a", @"abc"];
         //[NPChallengeSolver solveChallenge:[HWSChallenge07_ObjC new] forInput:hwsChallenge07Input];
-        [NPChallengeSolver solveChallenge:[HWSChallenge07_Swift new] forInput:hwsChallenge07Input];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge07_Swift new] forInput:hwsChallenge07Input];
+        
+        // HWS Challenge 8
+        //NSArray *hwsChallenge08Input = @[@[@"abcde", @"eabcd"], @[@"abcde", @"cdeab"],
+        //                                 @[@"abcde", @"abced"], @[@"abc", @"a"]];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge08_ObjC new] forInput:hwsChallenge08Input];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge08_Swift new] forInput:hwsChallenge08Input];
+        
+        // HWS Challenge 9
+        NSArray *hwsChallenge09Input = @[
+            @"The quick brown fox jumps over the lazy dog",
+            @"The quick brown fox jumped over the lazy dog"];
+        [NPChallengeSolver solveChallenge:[HWSChallenge09_ObjC new] forInput:hwsChallenge09Input];
+        [NPChallengeSolver solveChallenge:[HWSChallenge09_Swift new] forInput:hwsChallenge09Input];
         
         // HWS Challenge 17
         //NSArray* hwsChallenge17Input = @[@[@1, @5], @[@8, @10], @[@12, @12], @[@12, @18]];
