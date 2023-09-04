@@ -57,11 +57,23 @@ int main(int argc, const char * argv[]) {
         //[NPChallengeSolver solveChallenge:[HWSChallenge08_Swift new] forInput:hwsChallenge08Input];
         
         // HWS Challenge 9
-        NSArray *hwsChallenge09Input = @[
-            @"The quick brown fox jumps over the lazy dog",
-            @"The quick brown fox jumped over the lazy dog"];
-        [NPChallengeSolver solveChallenge:[HWSChallenge09_ObjC new] forInput:hwsChallenge09Input];
-        [NPChallengeSolver solveChallenge:[HWSChallenge09_Swift new] forInput:hwsChallenge09Input];
+        //NSArray *hwsChallenge09Input = @[
+        //    @"The quick brown fox jumps over the lazy dog",
+        //    @"The quick brown fox jumped over the lazy dog"];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge09_ObjC new] forInput:hwsChallenge09Input];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge09_Swift new] forInput:hwsChallenge09Input];
+        
+        // HWS Challenge 10
+        //NSArray *hwsChallenge10Input = @[@"Swift Coding Challenges", @"Mississippi"];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge10_ObjC new] forInput:hwsChallenge10Input];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge10_Swift new] forInput:hwsChallenge10Input];
+        
+        // HWS Challenge 11
+        NSArray *hwsChallenge11Input = @[@[@"Clamp", @"Cramp"], @[@"Clamp", @"Crams"],
+                                         @[@"Clamp", @"Grams"], @[@"Clamp", @"Grans"],
+                                         @[@"Clamp", @"Clam"], @[@"clamp", @"maple"], ];
+        [NPChallengeSolver solveChallenge:[HWSChallenge11_ObjC new] forInput:hwsChallenge11Input];
+        [NPChallengeSolver solveChallenge:[HWSChallenge11_Swift new] forInput:hwsChallenge11Input];
         
         // HWS Challenge 17
         //NSArray* hwsChallenge17Input = @[@[@1, @5], @[@8, @10], @[@12, @12], @[@12, @18]];

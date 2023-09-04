@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE473ACD2AA5CE4000F4FEFF /* HWSChallenge10_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE473ACC2AA5CE4000F4FEFF /* HWSChallenge10_ObjC.m */; };
+		BE473ACF2AA5D44500F4FEFF /* HWSChallenge10_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE473ACE2AA5D44500F4FEFF /* HWSChallenge10_Swift.swift */; };
+		BE473AD22AA5DB4700F4FEFF /* HWSChallenge11_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE473AD12AA5DB4700F4FEFF /* HWSChallenge11_ObjC.m */; };
+		BE473AD42AA5F7EB00F4FEFF /* HWSChallenge11_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE473AD32AA5F7EB00F4FEFF /* HWSChallenge11_Swift.swift */; };
 		BE5748B42AA277B5001E54C6 /* HWSChallenge03_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5748B32AA277B5001E54C6 /* HWSChallenge03_ObjC.m */; };
 		BE5748B62AA32781001E54C6 /* HWSChallenge03_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5748B52AA32781001E54C6 /* HWSChallenge03_Swift.swift */; };
 		BE5748BC2AA32B07001E54C6 /* HWSChallenge04_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5748BB2AA32B07001E54C6 /* HWSChallenge04_ObjC.m */; };
@@ -47,6 +51,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE473ACB2AA5CE4000F4FEFF /* HWSChallenge10_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenge10_ObjC.h; sourceTree = "<group>"; };
+		BE473ACC2AA5CE4000F4FEFF /* HWSChallenge10_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge10_ObjC.m; sourceTree = "<group>"; };
+		BE473ACE2AA5D44500F4FEFF /* HWSChallenge10_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge10_Swift.swift; sourceTree = "<group>"; };
+		BE473AD02AA5DB4700F4FEFF /* HWSChallenge11_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenge11_ObjC.h; sourceTree = "<group>"; };
+		BE473AD12AA5DB4700F4FEFF /* HWSChallenge11_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge11_ObjC.m; sourceTree = "<group>"; };
+		BE473AD32AA5F7EB00F4FEFF /* HWSChallenge11_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge11_Swift.swift; sourceTree = "<group>"; };
 		BE5748B22AA277B5001E54C6 /* HWSChallenge03_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenge03_ObjC.h; sourceTree = "<group>"; };
 		BE5748B32AA277B5001E54C6 /* HWSChallenge03_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge03_ObjC.m; sourceTree = "<group>"; };
 		BE5748B52AA32781001E54C6 /* HWSChallenge03_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge03_Swift.swift; sourceTree = "<group>"; };
@@ -186,6 +196,10 @@
 				BE8E06312AA4B9F200D03150 /* HWSChallenge08_ObjC.m */,
 				BE8E06352AA4BECA00D03150 /* HWSChallenge09_ObjC.h */,
 				BE8E06362AA4BECA00D03150 /* HWSChallenge09_ObjC.m */,
+				BE473ACB2AA5CE4000F4FEFF /* HWSChallenge10_ObjC.h */,
+				BE473ACC2AA5CE4000F4FEFF /* HWSChallenge10_ObjC.m */,
+				BE473AD02AA5DB4700F4FEFF /* HWSChallenge11_ObjC.h */,
+				BE473AD12AA5DB4700F4FEFF /* HWSChallenge11_ObjC.m */,
 				BECA1DF32A9FCD380066F994 /* HWSChallenge17_ObjC.h */,
 				BECA1DF42A9FCD380066F994 /* HWSChallenge17_ObjC.m */,
 				BE5748B72AA32A03001E54C6 /* HWSChallenges.h */,
@@ -207,6 +221,8 @@
 				BE5748D42AA36E6E001E54C6 /* HWSChallenge07_Swift.swift */,
 				BE8E06332AA4BDA500D03150 /* HWSChallenge08_Swift.swift */,
 				BE8E06382AA4C26400D03150 /* HWSChallenge09_Swift.swift */,
+				BE473ACE2AA5D44500F4FEFF /* HWSChallenge10_Swift.swift */,
+				BE473AD32AA5F7EB00F4FEFF /* HWSChallenge11_Swift.swift */,
 				BECA1DF62A9FD71A0066F994 /* HWSChallenge17_Swift.swift */,
 			);
 			path = Swift;
@@ -280,8 +296,12 @@
 				BE8E06322AA4B9F200D03150 /* HWSChallenge08_ObjC.m in Sources */,
 				BECA1DF52A9FCD380066F994 /* HWSChallenge17_ObjC.m in Sources */,
 				BE5748D52AA36E6E001E54C6 /* HWSChallenge07_Swift.swift in Sources */,
+				BE473ACF2AA5D44500F4FEFF /* HWSChallenge10_Swift.swift in Sources */,
 				BE5748D02AA35B2F001E54C6 /* HWSChallenge06_Swift.swift in Sources */,
+				BE473AD22AA5DB4700F4FEFF /* HWSChallenge11_ObjC.m in Sources */,
+				BE473ACD2AA5CE4000F4FEFF /* HWSChallenge10_ObjC.m in Sources */,
 				BECA1DF72A9FD71A0066F994 /* HWSChallenge17_Swift.swift in Sources */,
+				BE473AD42AA5F7EB00F4FEFF /* HWSChallenge11_Swift.swift in Sources */,
 				BEBA1E942A9F4B1200F8815F /* HWSChallenge02_Swift.swift in Sources */,
 				BE5748C92AA3375F001E54C6 /* HWSChallenge05_ObjC.m in Sources */,
 				BE5748B62AA32781001E54C6 /* HWSChallenge03_Swift.swift in Sources */,

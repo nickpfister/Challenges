@@ -5,7 +5,7 @@
 //  Created by Nick Pfister on 9/2/23.
 //
 
-@objc class HWSChallenge05_Swift: NSObject, NPChallenge {
+class HWSChallenge05_Swift: NSObject, NPChallenge {
     func solve(forInput input: [Any]?) -> [Any]? {
         let strArrays = input!.map({$0 as! [Any]})
         var output = [Int]()
