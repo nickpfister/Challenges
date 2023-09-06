@@ -90,6 +90,11 @@ int main(int argc, const char * argv[]) {
         //[NPChallengeSolver solveChallenge:[HWSChallenge14_ObjC new] forInput:hwsChallenge14Input];
         //[NPChallengeSolver solveChallenge:[HWSChallenge14_Swift new] forInput:hwsChallenge14Input];
         
+        // HWS Challenge 15
+        NSArray *hwsChallenge15Input = @[@"Swift Coding Challenges", @"The quick brown fox"];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge15_ObjC new] forInput:hwsChallenge15Input];
+        [NPChallengeSolver solveChallenge:[HWSChallenge15_Swift new] forInput:hwsChallenge15Input];
+        
         // HWS Challenge 17
         //NSArray* hwsChallenge17Input = @[@[@1, @5], @[@8, @10], @[@12, @12], @[@12, @18]];
         //[NPChallengeSolver solveChallenge:[HWSChallenge17_ObjC new] forInput:hwsChallenge17Input];
