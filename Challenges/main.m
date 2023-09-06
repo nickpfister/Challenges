@@ -69,11 +69,26 @@ int main(int argc, const char * argv[]) {
         //[NPChallengeSolver solveChallenge:[HWSChallenge10_Swift new] forInput:hwsChallenge10Input];
         
         // HWS Challenge 11
-        NSArray *hwsChallenge11Input = @[@[@"Clamp", @"Cramp"], @[@"Clamp", @"Crams"],
-                                         @[@"Clamp", @"Grams"], @[@"Clamp", @"Grans"],
-                                         @[@"Clamp", @"Clam"], @[@"clamp", @"maple"], ];
-        [NPChallengeSolver solveChallenge:[HWSChallenge11_ObjC new] forInput:hwsChallenge11Input];
-        [NPChallengeSolver solveChallenge:[HWSChallenge11_Swift new] forInput:hwsChallenge11Input];
+        //NSArray *hwsChallenge11Input = @[@[@"Clamp", @"Cramp"], @[@"Clamp", @"Crams"],
+        //                                 @[@"Clamp", @"Grams"], @[@"Clamp", @"Grans"],
+        //                                 @[@"Clamp", @"Clam"], @[@"clamp", @"maple"], ];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge11_ObjC new] forInput:hwsChallenge11Input];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge11_Swift new] forInput:hwsChallenge11Input];
+        
+        // HWS Challenge 12
+        //NSArray *hwsChallenge12Input = @[@"swift switch swill swim", @"flip flap flop"];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge12_ObjC new] forInput:hwsChallenge12Input];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge12_Swift new] forInput:hwsChallenge12Input];
+        
+        // HWS Challenge 13
+        //NSArray *hwsChallenge13Input = @[@"aabbcc", @"aaabaaabaaa", @"aaAAaa"];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge13_ObjC new] forInput:hwsChallenge13Input];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge13_Swift new] forInput:hwsChallenge13Input];
+        
+        // HWS Challenge 14
+        //NSArray *hwsChallenge14Input = @[@"a", @"ab", @"abc", @"wombat"];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge14_ObjC new] forInput:hwsChallenge14Input];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge14_Swift new] forInput:hwsChallenge14Input];
         
         // HWS Challenge 17
         //NSArray* hwsChallenge17Input = @[@[@1, @5], @[@8, @10], @[@12, @12], @[@12, @18]];
