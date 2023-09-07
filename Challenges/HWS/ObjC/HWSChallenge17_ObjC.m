@@ -10,8 +10,8 @@
 @implementation HWSChallenge17_ObjC
 - (nullable NSArray *)solveForInput:(nullable NSArray *)input {
     NSMutableArray* output = [NSMutableArray new];
-    for(NSArray<NSNumber*>* range in input){
-        [output addObject:[self randomNumberInRange:range]];
+    for(NSArray<NSNumber*>* intArray in input){
+        [output addObject:[self randomNumberInRange:intArray]];
     }
     
     return [[NSArray alloc] initWithArray:output];

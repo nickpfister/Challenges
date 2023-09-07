@@ -91,15 +91,29 @@ int main(int argc, const char * argv[]) {
         //[NPChallengeSolver solveChallenge:[HWSChallenge14_Swift new] forInput:hwsChallenge14Input];
         
         // HWS Challenge 15
-        NSArray *hwsChallenge15Input = @[@"Swift Coding Challenges", @"The quick brown fox"];
+        //NSArray *hwsChallenge15Input = @[@"Swift Coding Challenges", @"The quick brown fox"];
         //[NPChallengeSolver solveChallenge:[HWSChallenge15_ObjC new] forInput:hwsChallenge15Input];
-        [NPChallengeSolver solveChallenge:[HWSChallenge15_Swift new] forInput:hwsChallenge15Input];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge15_Swift new] forInput:hwsChallenge15Input];
+        
+        // HWS Challenge 16
+        //NSArray *hwsChallenge16Input = @[@1, @2, @3, @4, @5, @15];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge16_ObjC new] forInput:hwsChallenge16Input];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge16_Swift new] forInput:hwsChallenge16Input];
         
         // HWS Challenge 17
-        //NSArray* hwsChallenge17Input = @[@[@1, @5], @[@8, @10], @[@12, @12], @[@12, @18]];
+        //NSArray *hwsChallenge17Input = @[@[@1, @5], @[@8, @10], @[@12, @12], @[@12, @18]];
         //[NPChallengeSolver solveChallenge:[HWSChallenge17_ObjC new] forInput:hwsChallenge17Input];
         //[NPChallengeSolver solveChallenge:[HWSChallenge17_Swift new] forInput:hwsChallenge17Input];
         
+        // HWS Challenge 18
+        //NSArray *hwsChallenge18Input = @[@[@4, @3], @[@2, @8]];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge18_ObjC new] forInput:hwsChallenge18Input];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge18_Swift new] forInput:hwsChallenge18Input];
+        
+        // HWS Challenge 19
+        //NSArray *hwsChallenge19Input = @[@[@1, @2], @[@3, @4]];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge19_ObjC new] forInput:hwsChallenge19Input];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge19_Swift new] forInput:hwsChallenge19Input];
     }
     return 0;
 }

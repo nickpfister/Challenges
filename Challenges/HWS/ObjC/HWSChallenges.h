@@ -23,6 +23,9 @@
 #import "HWSChallenge13_ObjC.h"
 #import "HWSChallenge14_ObjC.h"
 #import "HWSChallenge15_ObjC.h"
+#import "HWSChallenge16_ObjC.h"
 #import "HWSChallenge17_ObjC.h"
+#import "HWSChallenge18_ObjC.h"
+#import "HWSChallenge19_ObjC.h"
 
 #endif /* HWSChallenges_h */
