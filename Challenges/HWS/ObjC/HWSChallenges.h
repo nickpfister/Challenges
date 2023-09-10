@@ -27,5 +27,7 @@
 #import "HWSChallenge17_ObjC.h"
 #import "HWSChallenge18_ObjC.h"
 #import "HWSChallenge19_ObjC.h"
+#import "HWSChallenge20_ObjC.h"
+#import "HWSChallenge21_ObjC.h"
 
 #endif /* HWSChallenges_h */

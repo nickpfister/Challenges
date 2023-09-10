@@ -114,6 +114,16 @@ int main(int argc, const char * argv[]) {
         //NSArray *hwsChallenge19Input = @[@[@1, @2], @[@3, @4]];
         //[NPChallengeSolver solveChallenge:[HWSChallenge19_ObjC new] forInput:hwsChallenge19Input];
         //[NPChallengeSolver solveChallenge:[HWSChallenge19_Swift new] forInput:hwsChallenge19Input];
+        
+        // HWS Challenge 20
+        //NSArray *hwsChallenge20Input = @[@11, @13, @4, @9, @16777259];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge20_ObjC new] forInput:hwsChallenge20Input];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge20_Swift new] forInput:hwsChallenge20Input];
+        
+        // HWS Challenge 21
+        NSArray *hwsChallenge21Input = @[@0, @1, @2, @15, @16, @256];
+        [NPChallengeSolver solveChallenge:[HWSChallenge21_ObjC new] forInput:hwsChallenge21Input];
+        
     }
     return 0;
 }
