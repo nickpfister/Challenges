@@ -121,8 +121,9 @@ int main(int argc, const char * argv[]) {
         //[NPChallengeSolver solveChallenge:[HWSChallenge20_Swift new] forInput:hwsChallenge20Input];
         
         // HWS Challenge 21
-        NSArray *hwsChallenge21Input = @[@0, @1, @2, @15, @16, @256];
-        [NPChallengeSolver solveChallenge:[HWSChallenge21_ObjC new] forInput:hwsChallenge21Input];
+        NSArray *hwsChallenge21Input = @[@12, @28];
+        //[NPChallengeSolver solveChallenge:[HWSChallenge21_ObjC new] forInput:hwsChallenge21Input];
+        [NPChallengeSolver solveChallenge:[HWSChallenge21_Swift new] forInput:hwsChallenge21Input];
         
     }
     return 0;
