@@ -139,6 +139,10 @@ int main(int argc, const char * argv[]) {
         //NSArray *hwsChallenge24Input = @[@"a1b2c3", @"a10b20c30", @"h8ers"];
         //[NPChallengeSolver solveChallenge:[HWSChallenge24_ObjC new] forInput:hwsChallenge24Input];
         //[NPChallengeSolver solveChallenge:[HWSChallenge24_Swift new] forInput:hwsChallenge24Input];
+        
+        // HWS Challenge 25
+        NSArray *hwsChallenge25Input = @[@9, @16777216, @16, @15];
+        [NPChallengeSolver solveChallenge:[HWSChallenge25_ObjC new] forInput:hwsChallenge25Input];
     }
     return 0;
 }

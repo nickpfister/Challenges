@@ -32,5 +32,6 @@
 #import "HWSChallenge22_ObjC.h"
 #import "HWSChallenge23_ObjC.h"
 #import "HWSChallenge24_ObjC.h"
+#import "HWSChallenge25_ObjC.h"
 
 #endif /* HWSChallenges_h */
