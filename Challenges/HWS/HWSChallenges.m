@@ -138,8 +138,14 @@
     //[NPChallengeSolver solveChallenge:[HWSChallenge24_Swift new] forInput:hwsChallenge24Input];
     
     // HWS Challenge 25
-    NSArray *hwsChallenge25Input = @[@9, @16777216, @16, @15];
-    [NPChallengeSolver solveChallenge:[HWSChallenge25_ObjC new] forInput:hwsChallenge25Input];
-    [NPChallengeSolver solveChallenge:[HWSChallenge25_Swift new] forInput:hwsChallenge25Input];
+    //NSArray *hwsChallenge25Input = @[@9, @16777216, @16, @15];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge25_ObjC new] forInput:hwsChallenge25Input];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge25_Swift new] forInput:hwsChallenge25Input];
+    
+    // HWS Challenge 26
+    NSArray *hwsChallenge26Input = @[@[@5, @9], @[@10, @30]];
+    [NPChallengeSolver solveChallenge:[HWSChallenge26_ObjC new] forInput:hwsChallenge26Input];
+    [NPChallengeSolver solveChallenge:[HWSChallenge26_Swift new] forInput:hwsChallenge26Input];
+    
 }
 @end
