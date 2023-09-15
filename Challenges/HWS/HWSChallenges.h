@@ -8,6 +8,7 @@
 #import <Foundation/Foundation.h>
 #import <Challenges-Swift.h>
 #import "NPChallengeSolver.h"
+#import "HWSFiles.h"
 #import "HWSChallenge01_ObjC.h"
 #import "HWSChallenge02_ObjC.h"
 #import "HWSChallenge03_ObjC.h"
@@ -34,6 +35,7 @@
 #import "HWSChallenge24_ObjC.h"
 #import "HWSChallenge25_ObjC.h"
 #import "HWSChallenge26_ObjC.h"
+#import "HWSChallenge27_ObjC.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

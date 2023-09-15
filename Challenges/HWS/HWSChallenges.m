@@ -143,9 +143,15 @@
     //[NPChallengeSolver solveChallenge:[HWSChallenge25_Swift new] forInput:hwsChallenge25Input];
     
     // HWS Challenge 26
-    NSArray *hwsChallenge26Input = @[@[@5, @9], @[@10, @30]];
-    [NPChallengeSolver solveChallenge:[HWSChallenge26_ObjC new] forInput:hwsChallenge26Input];
-    [NPChallengeSolver solveChallenge:[HWSChallenge26_Swift new] forInput:hwsChallenge26Input];
+    //NSArray *hwsChallenge26Input = @[@[@5, @9], @[@10, @30]];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge26_ObjC new] forInput:hwsChallenge26Input];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge26_Swift new] forInput:hwsChallenge26Input];
+    
+    // HWS Challenge 27
+    NSString *path = [HWSFiles fullPathOfFile:@"HWSChallenge27.txt"];
+    NSArray *hwsChallenge27Input = @[path, @3, @100, @0];
+    [NPChallengeSolver solveChallenge:[HWSChallenge27_ObjC new] forInput:hwsChallenge27Input];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge27_Swift new] forInput:hwsChallenge27Input];
     
 }
 @end
