@@ -2,12 +2,12 @@
 //  HWSChallenges.h
 //  Challenges
 //
-//  Created by Nick Pfister on 9/2/23.
+//  Created by Nick Pfister on 9/15/23.
 //
 
-#ifndef HWSChallenges_h
-#define HWSChallenges_h
-
+#import <Foundation/Foundation.h>
+#import <Challenges-Swift.h>
+#import "NPChallengeSolver.h"
 #import "HWSChallenge01_ObjC.h"
 #import "HWSChallenge02_ObjC.h"
 #import "HWSChallenge03_ObjC.h"
@@ -34,4 +34,10 @@
 #import "HWSChallenge24_ObjC.h"
 #import "HWSChallenge25_ObjC.h"
 
-#endif /* HWSChallenges_h */
+NS_ASSUME_NONNULL_BEGIN
+
+@interface HWSChallenges : NSObject
++ (void)solveChallenges;
+@end
+
+NS_ASSUME_NONNULL_END
