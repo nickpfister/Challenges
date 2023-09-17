@@ -154,10 +154,13 @@
     //[NPChallengeSolver solveChallenge:[HWSChallenge27_Swift new] forInput:hwsChallenge27Input];
     
     // HWS Challenge 28
-    NSString *path = [HWSFiles fullPathOfFile:@"HWSChallenge28.txt"];
-    NSArray *hwsChallenge28Input = @[path, @"Hello", @"World"];
+    //NSString *path = [HWSFiles fullPathOfFile:@"HWSChallenge28.txt"];
+    //NSArray *hwsChallenge28Input = @[path, @"Hello", @"World"];
     //[NPChallengeSolver solveChallenge:[HWSChallenge28_ObjC new] forInput:hwsChallenge28Input];
-    [NPChallengeSolver solveChallenge:[HWSChallenge28_Swift new] forInput:hwsChallenge28Input];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge28_Swift new] forInput:hwsChallenge28Input];
     
+    // HWS Challenge 29
+    [NPChallengeSolver solveChallenge:[HWSChallenge29_ObjC new] forInput:nil];
+    [NPChallengeSolver solveChallenge:[HWSChallenge29_Swift new] forInput:nil];
 }
 @end

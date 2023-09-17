@@ -70,6 +70,8 @@
 		BEEDCA4C2AB4FE82003B1CD3 /* HWSChallenge27_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEDCA4B2AB4FE82003B1CD3 /* HWSChallenge27_Swift.swift */; };
 		BEEDCA622AB73CCF003B1CD3 /* HWSChallenge28_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEDCA612AB73CCF003B1CD3 /* HWSChallenge28_ObjC.m */; };
 		BEEDCA652AB740F5003B1CD3 /* HWSChallenge28_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEDCA642AB740F5003B1CD3 /* HWSChallenge28_Swift.swift */; };
+		BEEDCA682AB745D9003B1CD3 /* HWSChallenge29_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEDCA672AB745D9003B1CD3 /* HWSChallenge29_ObjC.m */; };
+		BEEDCA6A2AB74778003B1CD3 /* HWSChallenge29_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEDCA692AB74778003B1CD3 /* HWSChallenge29_Swift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -185,6 +187,9 @@
 		BEEDCA612AB73CCF003B1CD3 /* HWSChallenge28_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge28_ObjC.m; sourceTree = "<group>"; };
 		BEEDCA632AB740C6003B1CD3 /* HWSChallenge28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HWSChallenge28.txt; sourceTree = "<group>"; };
 		BEEDCA642AB740F5003B1CD3 /* HWSChallenge28_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge28_Swift.swift; sourceTree = "<group>"; };
+		BEEDCA662AB745D9003B1CD3 /* HWSChallenge29_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenge29_ObjC.h; sourceTree = "<group>"; };
+		BEEDCA672AB745D9003B1CD3 /* HWSChallenge29_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge29_ObjC.m; sourceTree = "<group>"; };
+		BEEDCA692AB74778003B1CD3 /* HWSChallenge29_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge29_Swift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -324,6 +329,8 @@
 				BEEDCA432AB4DAEC003B1CD3 /* HWSChallenge27_ObjC.m */,
 				BEEDCA602AB73CCF003B1CD3 /* HWSChallenge28_ObjC.h */,
 				BEEDCA612AB73CCF003B1CD3 /* HWSChallenge28_ObjC.m */,
+				BEEDCA662AB745D9003B1CD3 /* HWSChallenge29_ObjC.h */,
+				BEEDCA672AB745D9003B1CD3 /* HWSChallenge29_ObjC.m */,
 			);
 			path = ObjC;
 			sourceTree = "<group>";
@@ -361,6 +368,7 @@
 				BEEDCA352AB48BA8003B1CD3 /* HWSChallenge26_Swift.swift */,
 				BEEDCA4B2AB4FE82003B1CD3 /* HWSChallenge27_Swift.swift */,
 				BEEDCA642AB740F5003B1CD3 /* HWSChallenge28_Swift.swift */,
+				BEEDCA692AB74778003B1CD3 /* HWSChallenge29_Swift.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -447,6 +455,7 @@
 				BE5748CE2AA3511E001E54C6 /* HWSChallenge06_ObjC.m in Sources */,
 				BE5748CB2AA33CF2001E54C6 /* HWSChallenge05_Swift.swift in Sources */,
 				BE7A72952AA8907100FF1337 /* HWSChallenge13_Swift.swift in Sources */,
+				BEEDCA682AB745D9003B1CD3 /* HWSChallenge29_ObjC.m in Sources */,
 				BE8E06322AA4B9F200D03150 /* HWSChallenge08_ObjC.m in Sources */,
 				BEEDCA2C2AB45784003B1CD3 /* HWSChallenge25_Swift.swift in Sources */,
 				BECA1DF52A9FCD380066F994 /* HWSChallenge17_ObjC.m in Sources */,
@@ -465,6 +474,7 @@
 				BE7A72A92AA9BD7B00FF1337 /* HWSChallenge16_Swift.swift in Sources */,
 				BE473ACD2AA5CE4000F4FEFF /* HWSChallenge10_ObjC.m in Sources */,
 				BEEDCA322AB48983003B1CD3 /* HWSChallenge26_ObjC.m in Sources */,
+				BEEDCA6A2AB74778003B1CD3 /* HWSChallenge29_Swift.swift in Sources */,
 				BECA1DF72A9FD71A0066F994 /* HWSChallenge17_Swift.swift in Sources */,
 				BE3278EB2AACEBF200A3BA84 /* HWSChallenge20_Swift.swift in Sources */,
 				BE3278E92AACC91900A3BA84 /* HWSChallenge20_ObjC.m in Sources */,
