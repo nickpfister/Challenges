@@ -68,6 +68,8 @@
 		BEEDCA442AB4DAEC003B1CD3 /* HWSChallenge27_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEDCA432AB4DAEC003B1CD3 /* HWSChallenge27_ObjC.m */; };
 		BEEDCA4A2AB4E5D7003B1CD3 /* HWSFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEDCA492AB4E5D7003B1CD3 /* HWSFiles.m */; };
 		BEEDCA4C2AB4FE82003B1CD3 /* HWSChallenge27_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEDCA4B2AB4FE82003B1CD3 /* HWSChallenge27_Swift.swift */; };
+		BEEDCA622AB73CCF003B1CD3 /* HWSChallenge28_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEDCA612AB73CCF003B1CD3 /* HWSChallenge28_ObjC.m */; };
+		BEEDCA652AB740F5003B1CD3 /* HWSChallenge28_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEDCA642AB740F5003B1CD3 /* HWSChallenge28_Swift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -179,6 +181,10 @@
 		BEEDCA482AB4E5D7003B1CD3 /* HWSFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSFiles.h; sourceTree = "<group>"; };
 		BEEDCA492AB4E5D7003B1CD3 /* HWSFiles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSFiles.m; sourceTree = "<group>"; };
 		BEEDCA4B2AB4FE82003B1CD3 /* HWSChallenge27_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge27_Swift.swift; sourceTree = "<group>"; };
+		BEEDCA602AB73CCF003B1CD3 /* HWSChallenge28_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenge28_ObjC.h; sourceTree = "<group>"; };
+		BEEDCA612AB73CCF003B1CD3 /* HWSChallenge28_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge28_ObjC.m; sourceTree = "<group>"; };
+		BEEDCA632AB740C6003B1CD3 /* HWSChallenge28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HWSChallenge28.txt; sourceTree = "<group>"; };
+		BEEDCA642AB740F5003B1CD3 /* HWSChallenge28_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge28_Swift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,6 +322,8 @@
 				BEEDCA312AB48983003B1CD3 /* HWSChallenge26_ObjC.m */,
 				BEEDCA422AB4DAEC003B1CD3 /* HWSChallenge27_ObjC.h */,
 				BEEDCA432AB4DAEC003B1CD3 /* HWSChallenge27_ObjC.m */,
+				BEEDCA602AB73CCF003B1CD3 /* HWSChallenge28_ObjC.h */,
+				BEEDCA612AB73CCF003B1CD3 /* HWSChallenge28_ObjC.m */,
 			);
 			path = ObjC;
 			sourceTree = "<group>";
@@ -352,6 +360,7 @@
 				BEEDCA2B2AB45784003B1CD3 /* HWSChallenge25_Swift.swift */,
 				BEEDCA352AB48BA8003B1CD3 /* HWSChallenge26_Swift.swift */,
 				BEEDCA4B2AB4FE82003B1CD3 /* HWSChallenge27_Swift.swift */,
+				BEEDCA642AB740F5003B1CD3 /* HWSChallenge28_Swift.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -359,6 +368,7 @@
 		BEEDCA472AB4E315003B1CD3 /* Files */ = {
 			isa = PBXGroup;
 			children = (
+				BEEDCA632AB740C6003B1CD3 /* HWSChallenge28.txt */,
 				BEEDCA462AB4E2C9003B1CD3 /* HWSChallenge27.txt */,
 				BEEDCA482AB4E5D7003B1CD3 /* HWSFiles.h */,
 				BEEDCA492AB4E5D7003B1CD3 /* HWSFiles.m */,
@@ -444,6 +454,7 @@
 				BE5748D52AA36E6E001E54C6 /* HWSChallenge07_Swift.swift in Sources */,
 				BE473ACF2AA5D44500F4FEFF /* HWSChallenge10_Swift.swift in Sources */,
 				BE7A72A22AA9B54100FF1337 /* HWSChallenge18_ObjC.m in Sources */,
+				BEEDCA652AB740F5003B1CD3 /* HWSChallenge28_Swift.swift in Sources */,
 				BE26411D2AB39BFC005DEEA2 /* HWSChallenge25_ObjC.m in Sources */,
 				BE7A72AC2AA9BF4500FF1337 /* HWSChallenge19_ObjC.m in Sources */,
 				BE5748D02AA35B2F001E54C6 /* HWSChallenge06_Swift.swift in Sources */,
@@ -466,6 +477,7 @@
 				BE5748C92AA3375F001E54C6 /* HWSChallenge05_ObjC.m in Sources */,
 				BEEDCA362AB48BA8003B1CD3 /* HWSChallenge26_Swift.swift in Sources */,
 				BE5748B62AA32781001E54C6 /* HWSChallenge03_Swift.swift in Sources */,
+				BEEDCA622AB73CCF003B1CD3 /* HWSChallenge28_ObjC.m in Sources */,
 				BEEDCA442AB4DAEC003B1CD3 /* HWSChallenge27_ObjC.m in Sources */,
 				BE5748C12AA32CD3001E54C6 /* NSString+FuzzyContains.m in Sources */,
 				BE5748D32AA35E42001E54C6 /* HWSChallenge07_ObjC.m in Sources */,

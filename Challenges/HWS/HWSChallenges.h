@@ -36,6 +36,7 @@
 #import "HWSChallenge25_ObjC.h"
 #import "HWSChallenge26_ObjC.h"
 #import "HWSChallenge27_ObjC.h"
+#import "HWSChallenge28_ObjC.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
