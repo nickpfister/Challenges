@@ -170,10 +170,20 @@
     //[NPChallengeSolver solveChallenge:[HWSChallenge30_Swift new] forInput:hwsChallenge30Input];
     
     // HWS Challenge 31
-    NSString *challenge31CopyFromPath = [HWSFiles fullPathOfFile:@"HWSChallenge31/Content"];
-    NSString *challenge31CopyToPath = [HWSFiles fullPathOfFile:@"HWSChallenge31/CopyTo/Content"];
-    NSArray *hwsChallenge31Input = @[challenge31CopyFromPath, challenge31CopyToPath];
+    //NSString *challenge31CopyFromPath = [HWSFiles fullPathOfFile:@"HWSChallenge31/Content"];
+    //NSString *challenge31CopyToPath = [HWSFiles fullPathOfFile:@"HWSChallenge31/CopyTo/Content"];
+    //NSArray *hwsChallenge31Input = @[challenge31CopyFromPath, challenge31CopyToPath];
     //[NPChallengeSolver solveChallenge:[HWSChallenge31_ObjC new] forInput:hwsChallenge31Input];
-    [NPChallengeSolver solveChallenge:[HWSChallenge31_Swift new] forInput:hwsChallenge31Input];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge31_Swift new] forInput:hwsChallenge31Input];
+    
+    // HWS Challenge 32
+    //NSString *challenge32Path1 = [HWSFiles fullPathOfFile:@"HWSChallenge32/Hello.txt"];
+    //NSString *challenge32Path2 = [HWSFiles fullPathOfFile:@"HWSChallenge32/Spain.txt"];
+    //NSArray *hwsChallenge32Input = @[
+    //    @[challenge32Path1, @"Hello"],
+    //    @[challenge32Path1, @"Hello,"],
+    //    @[challenge32Path2, @"in"]];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge32_ObjC new] forInput:hwsChallenge32Input];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge32_Swift new] forInput:hwsChallenge32Input];
 }
 @end

@@ -40,6 +40,7 @@
 #import "HWSChallenge29_ObjC.h"
 #import "HWSChallenge30_ObjC.h"
 #import "HWSChallenge31_ObjC.h"
+#import "HWSChallenge32_ObjC.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
