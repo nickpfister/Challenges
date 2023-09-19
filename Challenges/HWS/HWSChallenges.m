@@ -185,5 +185,11 @@
     //    @[challenge32Path2, @"in"]];
     //[NPChallengeSolver solveChallenge:[HWSChallenge32_ObjC new] forInput:hwsChallenge32Input];
     //[NPChallengeSolver solveChallenge:[HWSChallenge32_Swift new] forInput:hwsChallenge32Input];
+    
+    // HWS Challenge 33
+    //NSString *challenge33Dir = [HWSFiles fullPathOfFile:@"HWSChallenge33"];
+    //NSArray *hwsChallenge33Input = @[challenge33Dir];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge33_ObjC new] forInput:hwsChallenge33Input];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge33_Swift new] forInput:hwsChallenge33Input];
 }
 @end
