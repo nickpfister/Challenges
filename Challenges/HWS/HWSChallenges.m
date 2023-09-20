@@ -191,5 +191,11 @@
     //NSArray *hwsChallenge33Input = @[challenge33Dir];
     //[NPChallengeSolver solveChallenge:[HWSChallenge33_ObjC new] forInput:hwsChallenge33Input];
     //[NPChallengeSolver solveChallenge:[HWSChallenge33_Swift new] forInput:hwsChallenge33Input];
+    
+    // HWS Challenge 34
+    //NSString *challenge34Dir = [HWSFiles fullPathOfFile:@"HWSChallenge34"];
+    //NSArray *hwsChallenge34Input = @[challenge34Dir];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge34_ObjC new] forInput:hwsChallenge34Input];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge34_Swift new] forInput:hwsChallenge34Input];
 }
 @end
