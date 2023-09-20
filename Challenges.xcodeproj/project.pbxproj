@@ -39,6 +39,8 @@
 		BE5748D52AA36E6E001E54C6 /* HWSChallenge07_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5748D42AA36E6E001E54C6 /* HWSChallenge07_Swift.swift */; };
 		BE5997222ABAED74002A3D6F /* HWSChallenge34_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5997212ABAED74002A3D6F /* HWSChallenge34_ObjC.m */; };
 		BE5997292ABAF1AD002A3D6F /* HWSChallenge34_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5997282ABAF1AD002A3D6F /* HWSChallenge34_Swift.swift */; };
+		BE59972C2ABB1684002A3D6F /* HWSChallenge35_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE59972B2ABB1684002A3D6F /* HWSChallenge35_ObjC.m */; };
+		BE5997302ABB1ED9002A3D6F /* HWSChallenge35_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE59972F2ABB1ED9002A3D6F /* HWSChallenge35_Swift.swift */; };
 		BE7A72902AA87C3300FF1337 /* HWSChallenge12_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7A728F2AA87C3300FF1337 /* HWSChallenge12_Swift.swift */; };
 		BE7A72932AA8853E00FF1337 /* HWSChallenge13_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7A72922AA8853E00FF1337 /* HWSChallenge13_ObjC.m */; };
 		BE7A72952AA8907100FF1337 /* HWSChallenge13_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7A72942AA8907100FF1337 /* HWSChallenge13_Swift.swift */; };
@@ -150,6 +152,10 @@
 		BE5997262ABAF0E4002A3D6F /* a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = a; sourceTree = "<group>"; };
 		BE5997272ABAF0E4002A3D6F /* a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = a; sourceTree = "<group>"; };
 		BE5997282ABAF1AD002A3D6F /* HWSChallenge34_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge34_Swift.swift; sourceTree = "<group>"; };
+		BE59972A2ABB1684002A3D6F /* HWSChallenge35_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenge35_ObjC.h; sourceTree = "<group>"; };
+		BE59972B2ABB1684002A3D6F /* HWSChallenge35_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge35_ObjC.m; sourceTree = "<group>"; };
+		BE59972E2ABB1DDB002A3D6F /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpeg; sourceTree = "<group>"; };
+		BE59972F2ABB1ED9002A3D6F /* HWSChallenge35_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge35_Swift.swift; sourceTree = "<group>"; };
 		BE7A728F2AA87C3300FF1337 /* HWSChallenge12_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge12_Swift.swift; sourceTree = "<group>"; };
 		BE7A72912AA8853E00FF1337 /* HWSChallenge13_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenge13_ObjC.h; sourceTree = "<group>"; };
 		BE7A72922AA8853E00FF1337 /* HWSChallenge13_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge13_ObjC.m; sourceTree = "<group>"; };
@@ -281,6 +287,14 @@
 			path = subdirectory;
 			sourceTree = "<group>";
 		};
+		BE59972D2ABB1DDB002A3D6F /* HWSChallenge35 */ = {
+			isa = PBXGroup;
+			children = (
+				BE59972E2ABB1DDB002A3D6F /* cat.jpeg */,
+			);
+			path = HWSChallenge35;
+			sourceTree = "<group>";
+		};
 		BEBA1E652A9DF99400F8815F = {
 			isa = PBXGroup;
 			children = (
@@ -402,6 +416,8 @@
 				BE42DD072AB9D26400DAB8CB /* HWSChallenge33_ObjC.m */,
 				BE5997202ABAED74002A3D6F /* HWSChallenge34_ObjC.h */,
 				BE5997212ABAED74002A3D6F /* HWSChallenge34_ObjC.m */,
+				BE59972A2ABB1684002A3D6F /* HWSChallenge35_ObjC.h */,
+				BE59972B2ABB1684002A3D6F /* HWSChallenge35_ObjC.m */,
 			);
 			path = ObjC;
 			sourceTree = "<group>";
@@ -445,6 +461,7 @@
 				BEEDCA862AB88BB8003B1CD3 /* HWSChallenge32_Swift.swift */,
 				BE42DD0B2AB9DBBE00DAB8CB /* HWSChallenge33_Swift.swift */,
 				BE5997282ABAF1AD002A3D6F /* HWSChallenge34_Swift.swift */,
+				BE59972F2ABB1ED9002A3D6F /* HWSChallenge35_Swift.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -461,6 +478,7 @@
 				BEEDCA832AB88809003B1CD3 /* HWSChallenge32 */,
 				BE42DD052AB9D23800DAB8CB /* HWSChallenge33 */,
 				BE5997242ABAF0E4002A3D6F /* HWSChallenge34 */,
+				BE59972D2ABB1DDB002A3D6F /* HWSChallenge35 */,
 			);
 			path = Files;
 			sourceTree = "<group>";
@@ -588,6 +606,7 @@
 				BE5748CE2AA3511E001E54C6 /* HWSChallenge06_ObjC.m in Sources */,
 				BE5748CB2AA33CF2001E54C6 /* HWSChallenge05_Swift.swift in Sources */,
 				BE7A72952AA8907100FF1337 /* HWSChallenge13_Swift.swift in Sources */,
+				BE59972C2ABB1684002A3D6F /* HWSChallenge35_ObjC.m in Sources */,
 				BEEDCA682AB745D9003B1CD3 /* HWSChallenge29_ObjC.m in Sources */,
 				BE8E06322AA4B9F200D03150 /* HWSChallenge08_ObjC.m in Sources */,
 				BEEDCA2C2AB45784003B1CD3 /* HWSChallenge25_Swift.swift in Sources */,
@@ -627,6 +646,7 @@
 				BEEDCA442AB4DAEC003B1CD3 /* HWSChallenge27_ObjC.m in Sources */,
 				BEEDCA702AB82F76003B1CD3 /* HWSChallenge30_Swift.swift in Sources */,
 				BEEDCA872AB88BB8003B1CD3 /* HWSChallenge32_Swift.swift in Sources */,
+				BE5997302ABB1ED9002A3D6F /* HWSChallenge35_Swift.swift in Sources */,
 				BE5748C12AA32CD3001E54C6 /* NSString+FuzzyContains.m in Sources */,
 				BEEDCA822AB87A8F003B1CD3 /* HWSChallenge32_ObjC.m in Sources */,
 				BE5748D32AA35E42001E54C6 /* HWSChallenge07_ObjC.m in Sources */,
