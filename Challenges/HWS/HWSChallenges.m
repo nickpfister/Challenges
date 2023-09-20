@@ -199,9 +199,13 @@
     //[NPChallengeSolver solveChallenge:[HWSChallenge34_Swift new] forInput:hwsChallenge34Input];
     
     // HWS Challenge 35
-    NSString *challenge35Dir = [HWSFiles fullPathOfFile:@"HWSChallenge35/cat.jpeg"];
-    [NPChallengeSolver solveChallenge:[HWSChallenge35_ObjC new] forInput:@[challenge35Dir]];
-    [NPChallengeSolver solveChallenge:[HWSChallenge35_Swift new] forInput:@[challenge35Dir]];
+    //NSString *challenge35Dir = [HWSFiles fullPathOfFile:@"HWSChallenge35/cat.jpeg"];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge35_ObjC new] forInput:@[challenge35Dir]];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge35_Swift new] forInput:@[challenge35Dir]];
     
+    // HWS Challenge 36
+    NSString *challenge36Dir = [HWSFiles fullPathOfFile:@"HWSChallenge36/hugefile.txt"];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge36_ObjC new] forInput:@[challenge36Dir]];
+    [NPChallengeSolver solveChallenge:[HWSChallenge36_Swift new] forInput:@[challenge36Dir]];
 }
 @end
