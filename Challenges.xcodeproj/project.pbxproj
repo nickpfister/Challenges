@@ -64,7 +64,10 @@
 		BEAFE58A2AC3F47500E6B098 /* NSArray+CountDigits.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAFE5892AC3F47500E6B098 /* NSArray+CountDigits.m */; };
 		BEAFE58C2AC3FC6400E6B098 /* HWSChallenge37_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFE58B2AC3FC6400E6B098 /* HWSChallenge37_Swift.swift */; };
 		BEAFE58F2AC3FD6600E6B098 /* Collection+CountDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFE58E2AC3FD6600E6B098 /* Collection+CountDigits.swift */; };
-		BEBA1E722A9DF99400F8815F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E712A9DF99400F8815F /* main.m */; };
+		BEAFE5942AC4403000E6B098 /* Challenge38.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFE5932AC4403000E6B098 /* Challenge38.swift */; };
+		BEAFE5AB2AC4421000E6B098 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFE5AA2AC4421000E6B098 /* main.swift */; };
+		BEAFE5AF2AC4487D00E6B098 /* Challenge39.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFE5AE2AC4487D00E6B098 /* Challenge39.swift */; };
+		BEAFE5B12AC449D300E6B098 /* Challenge40.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFE5B02AC449D300E6B098 /* Challenge40.swift */; };
 		BEBA1E822A9E007200F8815F /* NPChallengeSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E812A9E007200F8815F /* NPChallengeSolver.m */; };
 		BEBA1E862A9E04E200F8815F /* HWSChallenge01a_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E852A9E04E200F8815F /* HWSChallenge01a_Swift.swift */; };
 		BEBA1E8C2A9F1ECA00F8815F /* HWSChallenge01b_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E8B2A9F1ECA00F8815F /* HWSChallenge01b_Swift.swift */; };
@@ -197,8 +200,11 @@
 		BEAFE5892AC3F47500E6B098 /* NSArray+CountDigits.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CountDigits.m"; sourceTree = "<group>"; };
 		BEAFE58B2AC3FC6400E6B098 /* HWSChallenge37_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge37_Swift.swift; sourceTree = "<group>"; };
 		BEAFE58E2AC3FD6600E6B098 /* Collection+CountDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+CountDigits.swift"; sourceTree = "<group>"; };
+		BEAFE5932AC4403000E6B098 /* Challenge38.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge38.swift; sourceTree = "<group>"; };
+		BEAFE5AA2AC4421000E6B098 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BEAFE5AE2AC4487D00E6B098 /* Challenge39.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge39.swift; sourceTree = "<group>"; };
+		BEAFE5B02AC449D300E6B098 /* Challenge40.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge40.swift; sourceTree = "<group>"; };
 		BEBA1E6E2A9DF99400F8815F /* Challenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Challenges; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEBA1E712A9DF99400F8815F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BEBA1E802A9E007200F8815F /* NPChallengeSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPChallengeSolver.h; sourceTree = "<group>"; };
 		BEBA1E812A9E007200F8815F /* NPChallengeSolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPChallengeSolver.m; sourceTree = "<group>"; };
 		BEBA1E832A9E009F00F8815F /* NPChallenge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPChallenge.h; sourceTree = "<group>"; };
@@ -336,6 +342,28 @@
 			path = HWSChallenge37;
 			sourceTree = "<group>";
 		};
+		BEAFE5912AC4048B00E6B098 /* 1-37 */ = {
+			isa = PBXGroup;
+			children = (
+				BEEDCA2D2AB459F4003B1CD3 /* HWSChallenges.h */,
+				BEEDCA2E2AB459F4003B1CD3 /* HWSChallenges.m */,
+				BEEDCA472AB4E315003B1CD3 /* Files */,
+				BEBA1E872A9E060900F8815F /* ObjC */,
+				BEBA1E882A9E061000F8815F /* Swift */,
+			);
+			path = "1-37";
+			sourceTree = "<group>";
+		};
+		BEAFE5922AC43FA100E6B098 /* 38-64 */ = {
+			isa = PBXGroup;
+			children = (
+				BEAFE5932AC4403000E6B098 /* Challenge38.swift */,
+				BEAFE5AE2AC4487D00E6B098 /* Challenge39.swift */,
+				BEAFE5B02AC449D300E6B098 /* Challenge40.swift */,
+			);
+			path = "38-64";
+			sourceTree = "<group>";
+		};
 		BEBA1E652A9DF99400F8815F = {
 			isa = PBXGroup;
 			children = (
@@ -357,7 +385,7 @@
 			children = (
 				BEBA1E792A9DFAB200F8815F /* Common */,
 				BEBA1E782A9DFA4400F8815F /* HWS */,
-				BEBA1E712A9DF99400F8815F /* main.m */,
+				BEAFE5AA2AC4421000E6B098 /* main.swift */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -365,11 +393,8 @@
 		BEBA1E782A9DFA4400F8815F /* HWS */ = {
 			isa = PBXGroup;
 			children = (
-				BEEDCA2D2AB459F4003B1CD3 /* HWSChallenges.h */,
-				BEEDCA2E2AB459F4003B1CD3 /* HWSChallenges.m */,
-				BEEDCA472AB4E315003B1CD3 /* Files */,
-				BEBA1E872A9E060900F8815F /* ObjC */,
-				BEBA1E882A9E061000F8815F /* Swift */,
+				BEAFE5912AC4048B00E6B098 /* 1-37 */,
+				BEAFE5922AC43FA100E6B098 /* 38-64 */,
 			);
 			path = HWS;
 			sourceTree = "<group>";
@@ -611,7 +636,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					BEBA1E6D2A9DF99400F8815F = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -645,7 +670,6 @@
 				BE5748C32AA334E8001E54C6 /* HWSChallenge04_Swift.swift in Sources */,
 				BE473AD72AA789CA00F4FEFF /* HWSChallenge12_ObjC.m in Sources */,
 				BE5748C62AA33557001E54C6 /* String+FuzzyContains.swift in Sources */,
-				BEBA1E722A9DF99400F8815F /* main.m in Sources */,
 				BEEDCA4C2AB4FE82003B1CD3 /* HWSChallenge27_Swift.swift in Sources */,
 				BE8E06372AA4BECA00D03150 /* HWSChallenge09_ObjC.m in Sources */,
 				BEBA1E8F2A9F2EC700F8815F /* HWSChallenge01_ObjC.m in Sources */,
@@ -672,11 +696,13 @@
 				BE26411D2AB39BFC005DEEA2 /* HWSChallenge25_ObjC.m in Sources */,
 				BE7A72AC2AA9BF4500FF1337 /* HWSChallenge19_ObjC.m in Sources */,
 				BE5D4C9E2AC19B60009B090E /* HWSChallenge37_ObjC.m in Sources */,
+				BEAFE5942AC4403000E6B098 /* Challenge38.swift in Sources */,
 				BE42DD082AB9D26400DAB8CB /* HWSChallenge33_ObjC.m in Sources */,
 				BE5748D02AA35B2F001E54C6 /* HWSChallenge06_Swift.swift in Sources */,
 				BE473AD22AA5DB4700F4FEFF /* HWSChallenge11_ObjC.m in Sources */,
 				BE7A72A42AA9B7D000FF1337 /* HWSChallenge18_Swift.swift in Sources */,
 				BE7A72902AA87C3300FF1337 /* HWSChallenge12_Swift.swift in Sources */,
+				BEAFE5AF2AC4487D00E6B098 /* Challenge39.swift in Sources */,
 				BE0B0EEF2AAE42DD00ABB961 /* HWSChallenge21_Swift.swift in Sources */,
 				BE7A72A92AA9BD7B00FF1337 /* HWSChallenge16_Swift.swift in Sources */,
 				BE473ACD2AA5CE4000F4FEFF /* HWSChallenge10_ObjC.m in Sources */,
@@ -696,12 +722,14 @@
 				BE2641182AB24615005DEEA2 /* HWSChallenge24_ObjC.m in Sources */,
 				BE7A72A72AA9BABF00FF1337 /* HWSChallenge16_ObjC.m in Sources */,
 				BE5748C92AA3375F001E54C6 /* HWSChallenge05_ObjC.m in Sources */,
+				BEAFE5B12AC449D300E6B098 /* Challenge40.swift in Sources */,
 				BEEDCA362AB48BA8003B1CD3 /* HWSChallenge26_Swift.swift in Sources */,
 				BE5748B62AA32781001E54C6 /* HWSChallenge03_Swift.swift in Sources */,
 				BEEDCA622AB73CCF003B1CD3 /* HWSChallenge28_ObjC.m in Sources */,
 				BEEDCA442AB4DAEC003B1CD3 /* HWSChallenge27_ObjC.m in Sources */,
 				BEEDCA702AB82F76003B1CD3 /* HWSChallenge30_Swift.swift in Sources */,
 				BEEDCA872AB88BB8003B1CD3 /* HWSChallenge32_Swift.swift in Sources */,
+				BEAFE5AB2AC4421000E6B098 /* main.swift in Sources */,
 				BE5997302ABB1ED9002A3D6F /* HWSChallenge35_Swift.swift in Sources */,
 				BE5748C12AA32CD3001E54C6 /* NSString+FuzzyContains.m in Sources */,
 				BEEDCA822AB87A8F003B1CD3 /* HWSChallenge32_ObjC.m in Sources */,
@@ -764,9 +792,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -822,9 +852,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -837,6 +869,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
@@ -845,6 +878,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 62VPKU8FKF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -860,6 +894,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 62VPKU8FKF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
