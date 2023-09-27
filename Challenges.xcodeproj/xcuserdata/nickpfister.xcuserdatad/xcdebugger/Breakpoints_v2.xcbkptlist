@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3EC77D69-95D6-4244-BF96-48F99A41FC53"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA5CACCD-6966-4944-A16A-9EC22E9CD7E9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/HWS/Swift/HWSChallenge21_Swift.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "closestNumbersWithEqualBinaryOnes(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8DB12089-8BD7-4585-9D7C-339700A14A00"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/HWS/Swift/HWSChallenge21_Swift.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "binaryOnes(ofInteger:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8264213B-8867-4888-A3D6-1C323E56ABE8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/HWS/ObjC/HWSChallenge22_ObjC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "-binaryReverseOfInteger:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E763846-57C7-4EBA-ADC1-6740F1AAE164"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/HWS/ObjC/HWSChallenge30_ObjC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "-jpegsCreatedRecentlyInDirectory:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0E763846-57C7-4EBA-ADC1-6740F1AAE164 - ff0266787a550acb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HWSChallenge30_ObjC jpegsCreatedRecentlyInDirectory:]"
+                  moduleName = "Challenges"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nickpfister/Documents/Projects/Challenges/Challenges/HWS/ObjC/HWSChallenge30_ObjC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "576">
+               </Location>
+               <Location
+                  uuid = "0E763846-57C7-4EBA-ADC1-6740F1AAE164 - ff0266787a550ae8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HWSChallenge30_ObjC jpegsCreatedRecentlyInDirectory:]"
+                  moduleName = "Challenges"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nickpfister/Documents/Projects/Challenges/Challenges/HWS/ObjC/HWSChallenge30_ObjC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "604">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "304C5AFB-F67A-463D-AED1-4E4E28EC722A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/HWS/Swift/HWSChallenge30_Swift.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "jpegsCreatedRecently(inDirectory:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4658C6A7-AE5F-43AA-BABC-99AF33CACC11"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/HWS/Swift/HWSChallenge30_Swift.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "jpegsCreatedRecently(inDirectory:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD78F996-C7D8-4C95-9DBD-1C4C8E8F8C96"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/HWS/ObjC/HWSChallenge31_ObjC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "-copyDirectory:toDirectory:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DD78F996-C7D8-4C95-9DBD-1C4C8E8F8C96 - 87f1eda00cb1da13"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HWSChallenge31_ObjC copyDirectory:toDirectory:]"
+                  moduleName = "Challenges"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nickpfister/Documents/Projects/Challenges/Challenges/HWS/ObjC/HWSChallenge31_ObjC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "DD78F996-C7D8-4C95-9DBD-1C4C8E8F8C96 - 87f1eda00cb1da34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[HWSChallenge31_ObjC copyDirectory:toDirectory:]"
+                  moduleName = "Challenges"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nickpfister/Documents/Projects/Challenges/Challenges/HWS/ObjC/HWSChallenge31_ObjC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4DD23E2C-4E3A-46DA-A013-AA7D47B43B64"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/HWS/ObjC/HWSChallenge32_ObjC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "-wordFrequencyInFileAtPath:word:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39C9C820-195B-4535-9711-54C57EB566B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/HWS/ObjC/HWSChallenge33_ObjC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "-findDuplicateFilesInDirectory:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "580C4D06-3A18-4686-B0F9-BAD25822DE24"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/HWS/ObjC/HWSChallenge36_ObjC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "-countErrorLinesInFile:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8867D1AE-C98F-4D66-8631-413E2AC65C67"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/HWS/ObjC/HWSChallenge37/NSArray+CountDigits.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "-countDigits:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5032CA21-42F1-4A06-8ECF-972F5A13D7FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/HWS/ObjC/HWSChallenge37/NSArray+CountDigits.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "-countDigits:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5032CA21-42F1-4A06-8ECF-972F5A13D7FC - bb53fc4c4dcbbf34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NSArray(CountDigits) countDigits:]"
+                  moduleName = "Challenges"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nickpfister/Documents/Projects/Challenges/Challenges/HWS/ObjC/HWSChallenge37/NSArray+CountDigits.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "352">
+               </Location>
+               <Location
+                  uuid = "5032CA21-42F1-4A06-8ECF-972F5A13D7FC - bb53fc4c4dcbbf34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[NSArray(CountDigits) countDigits:]"
+                  moduleName = "Challenges"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nickpfister/Documents/Projects/Challenges/Challenges/HWS/ObjC/HWSChallenge37/NSArray+CountDigits.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB0FEF98-2AE6-436D-BACD-0F03E7098121"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/HWS/Swift/HWSChallenge37/Collection+CountDigits.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "countDigits(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FB0FEF98-2AE6-436D-BACD-0F03E7098121 - 78b2feac84cf1491"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.Collection&lt; where &#x3c4;_0_0.Element == Swift.Int&gt;.countDigits(Swift.Int) -&gt; Swift.Int"
+                  moduleName = "Challenges"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nickpfister/Documents/Projects/Challenges/Challenges/HWS/Swift/HWSChallenge37/Collection+CountDigits.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "496">
+               </Location>
+               <Location
+                  uuid = "FB0FEF98-2AE6-436D-BACD-0F03E7098121 - 78b2feac84cf1491"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Swift.Collection&lt; where &#x3c4;_0_0.Element == Swift.Int&gt;.countDigits(Swift.Int) -&gt; Swift.Int"
+                  moduleName = "Challenges"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nickpfister/Documents/Projects/Challenges/Challenges/HWS/Swift/HWSChallenge37/Collection+CountDigits.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "560">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

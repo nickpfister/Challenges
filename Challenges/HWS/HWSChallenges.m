@@ -204,8 +204,16 @@
     //[NPChallengeSolver solveChallenge:[HWSChallenge35_Swift new] forInput:@[challenge35Dir]];
     
     // HWS Challenge 36
-    NSString *challenge36Dir = [HWSFiles fullPathOfFile:@"HWSChallenge36/hugefile.txt"];
+    //NSString *challenge36Dir = [HWSFiles fullPathOfFile:@"HWSChallenge36/hugefile.txt"];
     //[NPChallengeSolver solveChallenge:[HWSChallenge36_ObjC new] forInput:@[challenge36Dir]];
-    [NPChallengeSolver solveChallenge:[HWSChallenge36_Swift new] forInput:@[challenge36Dir]];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge36_Swift new] forInput:@[challenge36Dir]];
+    
+    // HWS Challenge 37
+    NSArray *hwsChallenge37Input = @[@[@5, @[@5, @15, @55, @515]],
+                                     @[@1, @[@5, @15, @55, @515]],
+                                     @[@5, @[@55555]],
+                                     @[@1, @[@55555]]];
+    //[NPChallengeSolver solveChallenge:[HWSChallenge37_ObjC new] forInput:hwsChallenge37Input];
+    [NPChallengeSolver solveChallenge:[HWSChallenge37_Swift new] forInput:hwsChallenge37Input];
 }
 @end
