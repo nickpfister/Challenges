@@ -61,6 +61,9 @@
 		BE8E06372AA4BECA00D03150 /* HWSChallenge09_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE8E06362AA4BECA00D03150 /* HWSChallenge09_ObjC.m */; };
 		BE8E06392AA4C26400D03150 /* HWSChallenge09_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8E06382AA4C26400D03150 /* HWSChallenge09_Swift.swift */; };
 		BEA2DD592ABB3D53003A5F63 /* HWSChallenge36_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA2DD582ABB3D53003A5F63 /* HWSChallenge36_Swift.swift */; };
+		BEADF4122AC57D540080DFB2 /* Challenge41.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEADF4112AC57D540080DFB2 /* Challenge41.swift */; };
+		BEADF4142AC580C30080DFB2 /* Challenge42.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEADF4132AC580C30080DFB2 /* Challenge42.swift */; };
+		BEADF4162AC5845E0080DFB2 /* Challenge43.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEADF4152AC5845E0080DFB2 /* Challenge43.swift */; };
 		BEAFE58A2AC3F47500E6B098 /* NSArray+CountDigits.m in Sources */ = {isa = PBXBuildFile; fileRef = BEAFE5892AC3F47500E6B098 /* NSArray+CountDigits.m */; };
 		BEAFE58C2AC3FC6400E6B098 /* HWSChallenge37_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFE58B2AC3FC6400E6B098 /* HWSChallenge37_Swift.swift */; };
 		BEAFE58F2AC3FD6600E6B098 /* Collection+CountDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFE58E2AC3FD6600E6B098 /* Collection+CountDigits.swift */; };
@@ -196,6 +199,9 @@
 		BE8E06362AA4BECA00D03150 /* HWSChallenge09_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge09_ObjC.m; sourceTree = "<group>"; };
 		BE8E06382AA4C26400D03150 /* HWSChallenge09_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge09_Swift.swift; sourceTree = "<group>"; };
 		BEA2DD582ABB3D53003A5F63 /* HWSChallenge36_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge36_Swift.swift; sourceTree = "<group>"; };
+		BEADF4112AC57D540080DFB2 /* Challenge41.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge41.swift; sourceTree = "<group>"; };
+		BEADF4132AC580C30080DFB2 /* Challenge42.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge42.swift; sourceTree = "<group>"; };
+		BEADF4152AC5845E0080DFB2 /* Challenge43.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge43.swift; sourceTree = "<group>"; };
 		BEAFE5882AC3F47500E6B098 /* NSArray+CountDigits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+CountDigits.h"; sourceTree = "<group>"; };
 		BEAFE5892AC3F47500E6B098 /* NSArray+CountDigits.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CountDigits.m"; sourceTree = "<group>"; };
 		BEAFE58B2AC3FC6400E6B098 /* HWSChallenge37_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge37_Swift.swift; sourceTree = "<group>"; };
@@ -360,6 +366,9 @@
 				BEAFE5932AC4403000E6B098 /* Challenge38.swift */,
 				BEAFE5AE2AC4487D00E6B098 /* Challenge39.swift */,
 				BEAFE5B02AC449D300E6B098 /* Challenge40.swift */,
+				BEADF4112AC57D540080DFB2 /* Challenge41.swift */,
+				BEADF4132AC580C30080DFB2 /* Challenge42.swift */,
+				BEADF4152AC5845E0080DFB2 /* Challenge43.swift */,
 			);
 			path = "38-64";
 			sourceTree = "<group>";
@@ -680,6 +689,7 @@
 				BE7A72932AA8853E00FF1337 /* HWSChallenge13_ObjC.m in Sources */,
 				BE5748CE2AA3511E001E54C6 /* HWSChallenge06_ObjC.m in Sources */,
 				BE5748CB2AA33CF2001E54C6 /* HWSChallenge05_Swift.swift in Sources */,
+				BEADF4142AC580C30080DFB2 /* Challenge42.swift in Sources */,
 				BE7A72952AA8907100FF1337 /* HWSChallenge13_Swift.swift in Sources */,
 				BE59972C2ABB1684002A3D6F /* HWSChallenge35_ObjC.m in Sources */,
 				BEEDCA682AB745D9003B1CD3 /* HWSChallenge29_ObjC.m in Sources */,
@@ -707,11 +717,13 @@
 				BE7A72A92AA9BD7B00FF1337 /* HWSChallenge16_Swift.swift in Sources */,
 				BE473ACD2AA5CE4000F4FEFF /* HWSChallenge10_ObjC.m in Sources */,
 				BEEDCA322AB48983003B1CD3 /* HWSChallenge26_ObjC.m in Sources */,
+				BEADF4122AC57D540080DFB2 /* Challenge41.swift in Sources */,
 				BEEDCA6A2AB74778003B1CD3 /* HWSChallenge29_Swift.swift in Sources */,
 				BEAFE58C2AC3FC6400E6B098 /* HWSChallenge37_Swift.swift in Sources */,
 				BECA1DF72A9FD71A0066F994 /* HWSChallenge17_Swift.swift in Sources */,
 				BE3278EB2AACEBF200A3BA84 /* HWSChallenge20_Swift.swift in Sources */,
 				BEAFE58F2AC3FD6600E6B098 /* Collection+CountDigits.swift in Sources */,
+				BEADF4162AC5845E0080DFB2 /* Challenge43.swift in Sources */,
 				BE5997222ABAED74002A3D6F /* HWSChallenge34_ObjC.m in Sources */,
 				BE3278E92AACC91900A3BA84 /* HWSChallenge20_ObjC.m in Sources */,
 				BE473AD42AA5F7EB00F4FEFF /* HWSChallenge11_Swift.swift in Sources */,

@@ -8,5 +8,8 @@
 challenge38()
 challenge39()
 challenge40()
+challenge41()
+challenge42()
+challenge43()
 
 
