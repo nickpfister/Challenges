@@ -93,11 +93,14 @@ class BinaryTree<T>: CustomStringConvertible where T: Comparable {
     }
     
     func traverse(_ traverseFunc: (T) -> ()) {
-        
+        nodeTraverse(fromNode: root, traverseFunc: traverseFunc)
     }
     
-    func nodeTraverse(fromNode node: TreeNode<T>) {
-        
+    func nodeTraverse(fromNode node: TreeNode<T>?, traverseFunc: (T) -> ()) {
+        guard node != nil else { return }
+        nodeTraverse(fromNode: node?.left, traverseFunc: traverseFunc)
+        traverseFunc(node!.value)
+        nodeTraverse(fromNode: node?.right, traverseFunc: traverseFunc)
     }
     
     private func maxHeight(fromNode node: TreeNode<T>?) -> Int {
