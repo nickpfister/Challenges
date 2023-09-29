@@ -15,6 +15,7 @@ challenge44()
 challenge45()
 challenge46()
 challenge47()
+challenge48()
 challenge54()
 
 
