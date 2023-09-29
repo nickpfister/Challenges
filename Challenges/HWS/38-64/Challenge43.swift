@@ -6,20 +6,10 @@
 //
 
 func challenge43() {
-    var linkedList: LinkedList<Character>? = nil
-    var predecessor: Node<Character>? = nil
-    for letter in "abcdefghijklmnopqrstuvwxyz" {
-        let node = Node(value: letter)
-        if linkedList == nil {
-            linkedList = LinkedList(first: node)
-        }
-        
-        predecessor?.next = node
-        predecessor = node
-    }
+    let linkedList = LinkedList(collection: "abcdefghijklmnopqrstuvwxyz")
     
     var traversal = [Character]()
-    var node = linkedList?.first
+    var node = linkedList.first
     while(node != nil) {
         traversal.append(node!.value)
         node = node!.next
@@ -30,19 +20,27 @@ func challenge43() {
     print("Challenge 43 solved!")
 }
 
-class Node<T> {
-    var value: T
-    var next: Node<T>? = nil
-    
-    init(value: T) {
-        self.value = value
-    }
-}
+
 
 class LinkedList<T> {
-    let first: Node<T>?
+    let first: LinkedListNode<T>?
     
-    init(first: Node<T>?) {
+    init(first: LinkedListNode<T>?) {
         self.first = first
+    }
+    
+    convenience init(collection: any Collection<T>) {
+        var first: LinkedListNode<T>? = nil
+        var predecessor: LinkedListNode<T>? = nil
+        for element in collection {
+            let node = LinkedListNode(value: element)
+            if first == nil {
+                first = node
+            }
+            predecessor?.next = node
+            predecessor = node
+        }
+        
+        self.init(first: first)
     }
 }
