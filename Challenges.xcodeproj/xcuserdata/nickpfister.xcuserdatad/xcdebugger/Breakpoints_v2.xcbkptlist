@@ -340,5 +340,53 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5991128F-28F0-4A35-B7BA-6322D7CE641E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Challenges/HWS/38-64/Challenge50.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "largestRange(ofNumbers:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "5991128F-28F0-4A35-B7BA-6322D7CE641E - 7116a5a54f488a62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "largestRange(ofNumbers: Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Optional&lt;Swift.ClosedRange&lt;Swift.Int&gt;&gt;"
+                  moduleName = "Challenges"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nickpfister/Documents/Projects/Challenges/Challenges/HWS/38-64/Challenge50.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "5991128F-28F0-4A35-B7BA-6322D7CE641E - 7116a5a54f488a62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "largestRange(ofNumbers: Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Optional&lt;Swift.ClosedRange&lt;Swift.Int&gt;&gt;"
+                  moduleName = "Challenges"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nickpfister/Documents/Projects/Challenges/Challenges/HWS/38-64/Challenge50.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

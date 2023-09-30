@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE0036AE2AC7E609005FA1BD /* Challenge50.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0036AD2AC7E609005FA1BD /* Challenge50.swift */; };
 		BE0B0EEF2AAE42DD00ABB961 /* HWSChallenge21_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0B0EEE2AAE42DD00ABB961 /* HWSChallenge21_Swift.swift */; };
 		BE26410E2AB22DA2005DEEA2 /* HWSChallenge22_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE26410D2AB22DA2005DEEA2 /* HWSChallenge22_ObjC.m */; };
 		BE2641102AB23F48005DEEA2 /* HWSChallenge22_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE26410F2AB23F48005DEEA2 /* HWSChallenge22_Swift.swift */; };
@@ -123,6 +124,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE0036AD2AC7E609005FA1BD /* Challenge50.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge50.swift; sourceTree = "<group>"; };
 		BE0B0EEE2AAE42DD00ABB961 /* HWSChallenge21_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge21_Swift.swift; sourceTree = "<group>"; };
 		BE26410C2AB22DA2005DEEA2 /* HWSChallenge22_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenge22_ObjC.h; sourceTree = "<group>"; };
 		BE26410D2AB22DA2005DEEA2 /* HWSChallenge22_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge22_ObjC.m; sourceTree = "<group>"; };
@@ -399,6 +401,7 @@
 				BEC4F4962AC6C0AA00C28721 /* Challenge47.swift */,
 				BEC4F49A2AC6C75600C28721 /* Challenge48.swift */,
 				BEC4F49C2AC6C90E00C28721 /* Challenge49.swift */,
+				BE0036AD2AC7E609005FA1BD /* Challenge50.swift */,
 				BEC4F4852AC68BBA00C28721 /* Challenge54.swift */,
 			);
 			path = "38-64";
@@ -756,6 +759,7 @@
 				BEEDCA682AB745D9003B1CD3 /* HWSChallenge29_ObjC.m in Sources */,
 				BE8E06322AA4B9F200D03150 /* HWSChallenge08_ObjC.m in Sources */,
 				BEEDCA2C2AB45784003B1CD3 /* HWSChallenge25_Swift.swift in Sources */,
+				BE0036AE2AC7E609005FA1BD /* Challenge50.swift in Sources */,
 				BECA1DF52A9FCD380066F994 /* HWSChallenge17_ObjC.m in Sources */,
 				BE7A729D2AA8A5EF00FF1337 /* HWSChallenge15_ObjC.m in Sources */,
 				BE5748D52AA36E6E001E54C6 /* HWSChallenge07_Swift.swift in Sources */,
