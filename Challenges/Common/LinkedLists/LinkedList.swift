@@ -79,7 +79,7 @@ class LinkedList<T>: CustomStringConvertible where T: CustomStringConvertible {
         var currentCopy: LinkedListNode<T> = LinkedListNode(value: first!.value)
         
         while next != nil {
-            var previousCopy = LinkedListNode(value: next!.value)
+            let previousCopy = LinkedListNode(value: next!.value)
             previousCopy.next = currentCopy
             currentCopy = previousCopy
             next = next?.next
