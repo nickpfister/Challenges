@@ -6,10 +6,10 @@
 //
 
 class LinkedList<T>: CustomStringConvertible where T: CustomStringConvertible {
-    let first: LinkedListNode<T>?
+    var start: LinkedListNode<T>? = nil
     
-    init(first: LinkedListNode<T>?) {
-        self.first = first
+    init(first: LinkedListNode<T>? = nil) {
+        self.start = first
     }
     
     convenience init(collection: any Collection<T>) {
@@ -29,7 +29,7 @@ class LinkedList<T>: CustomStringConvertible where T: CustomStringConvertible {
     
     var description: String {
         var result = ""
-        var next = first
+        var next = start
         
         while next != nil {
             result += String(describing: next!.value)
@@ -44,8 +44,8 @@ class LinkedList<T>: CustomStringConvertible where T: CustomStringConvertible {
     
     // If there is a shared midpoint, return the lower one
     func midpoint() -> LinkedListNode<T>? {
-        var singleStepNode = first;
-        var doubleStepNode = first?.next?.next
+        var singleStepNode = start;
+        var doubleStepNode = start?.next?.next
         
         while doubleStepNode != nil {
             singleStepNode = singleStepNode?.next
@@ -56,7 +56,7 @@ class LinkedList<T>: CustomStringConvertible where T: CustomStringConvertible {
     }
     
     func reverse() -> LinkedList<T> {
-        var node: LinkedListNode? = first
+        var node: LinkedListNode? = start
         var forwardNext: LinkedListNode<T>? = node?.next
         node?.next = nil
         
@@ -71,12 +71,12 @@ class LinkedList<T>: CustomStringConvertible where T: CustomStringConvertible {
     }
     
     func reversed() -> LinkedList<T> {
-        guard first != nil else {
+        guard start != nil else {
             return LinkedList<T>(first: nil)
         }
         
-        var next: LinkedListNode? = first!.next
-        var currentCopy: LinkedListNode<T> = LinkedListNode(value: first!.value)
+        var next: LinkedListNode? = start!.next
+        var currentCopy: LinkedListNode<T> = LinkedListNode(value: start!.value)
         
         while next != nil {
             let previousCopy = LinkedListNode(value: next!.value)
@@ -86,5 +86,32 @@ class LinkedList<T>: CustomStringConvertible where T: CustomStringConvertible {
         }
         
         return LinkedList(first: currentCopy)
+    }
+    
+    func findLoopStart() -> LinkedListNode<T>? {
+        var turtle = start
+        var hare = start
+        
+        while hare != nil {
+            hare = hare?.next?.next
+            turtle = turtle?.next
+            
+            if hare === turtle {
+                break
+            }
+        }
+        
+        if hare == nil {
+            return nil
+        }
+        
+        turtle = start
+        
+        while hare !== turtle {
+            hare = hare?.next
+            turtle = turtle?.next
+        }
+        
+        return hare
     }
 }

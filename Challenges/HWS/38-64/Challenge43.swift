@@ -9,7 +9,7 @@ func challenge43() {
     let linkedList = LinkedList(collection: "abcdefghijklmnopqrstuvwxyz")
     
     var traversal = [Character]()
-    var node = linkedList.first
+    var node = linkedList.start
     while(node != nil) {
         traversal.append(node!.value)
         node = node!.next
