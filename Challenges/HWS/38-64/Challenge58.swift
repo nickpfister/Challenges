@@ -28,7 +28,6 @@ func challenge58() {
         for character in string {
             if unMatchedStack.isEmpty {
                 unMatchedStack.append(character)
-                print(unMatchedStack)
                 continue
             }
             if let match = bracketLookup[unMatchedStack.last!] {
@@ -40,8 +39,6 @@ func challenge58() {
             } else {
                 unMatchedStack.append(character)
             }
-            
-            print(unMatchedStack)
         }
         
         return unMatchedStack.count == 0
