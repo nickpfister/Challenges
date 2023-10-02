@@ -27,3 +27,6 @@ challenge56()
 challenge57()
 challenge58()
 challenge59()
+challenge60()
+challenge61()
+
