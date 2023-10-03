@@ -4,6 +4,7 @@
 //
 //  Created by Nick Pfister on 9/27/23.
 //
+HWSChallenges.solveChallenges()
 
 challenge38()
 challenge39()
@@ -32,4 +33,3 @@ challenge61()
 challenge62()
 challenge63()
 challenge64()
-

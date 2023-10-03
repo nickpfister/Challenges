@@ -11,7 +11,7 @@ func challenge64() {
     print("Challenge 64 solved!")
     
     func nQueens(_ n: Int) -> Int {
-        var startBoard = Array<Int>(repeating: -1, count: n)
+        let startBoard = Array<Int>(repeating: -1, count: n)
         return nQueens(board: startBoard, column: 0)
         
         func nQueens(board: [Int], column: Int) -> Int {

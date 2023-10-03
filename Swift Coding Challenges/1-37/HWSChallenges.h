@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Challenges-Swift.h>
+#import <SwiftCodingChallenges-Swift.h>
 #import "NPChallengeSolver.h"
 #import "HWSFiles.h"
 #import "HWSChallenge01_ObjC.h"

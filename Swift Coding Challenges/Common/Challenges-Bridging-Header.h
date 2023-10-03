@@ -3,3 +3,4 @@
 //
 
 #import "NPChallenge.h"
+#import "HWSChallenges.h"

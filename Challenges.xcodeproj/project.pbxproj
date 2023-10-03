@@ -17,6 +17,7 @@
 		BE01AD0D2ACA90A500AA69AA /* Challenge62.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE01AD0C2ACA90A500AA69AA /* Challenge62.swift */; };
 		BE01AD0F2ACAA5F400AA69AA /* Challenge63.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE01AD0E2ACAA5F400AA69AA /* Challenge63.swift */; };
 		BE01AD112ACAAD3C00AA69AA /* Challenge64.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE01AD102ACAAD3C00AA69AA /* Challenge64.swift */; };
+		BE01AD192ACBBF7000AA69AA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE01AD182ACBBF7000AA69AA /* main.cpp */; };
 		BE0B0EEF2AAE42DD00ABB961 /* HWSChallenge21_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0B0EEE2AAE42DD00ABB961 /* HWSChallenge21_Swift.swift */; };
 		BE26410E2AB22DA2005DEEA2 /* HWSChallenge22_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BE26410D2AB22DA2005DEEA2 /* HWSChallenge22_ObjC.m */; };
 		BE2641102AB23F48005DEEA2 /* HWSChallenge22_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE26410F2AB23F48005DEEA2 /* HWSChallenge22_Swift.swift */; };
@@ -125,6 +126,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		BE01AD142ACBBF7000AA69AA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		BEBA1E6C2A9DF99400F8815F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -147,6 +157,8 @@
 		BE01AD0C2ACA90A500AA69AA /* Challenge62.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge62.swift; sourceTree = "<group>"; };
 		BE01AD0E2ACAA5F400AA69AA /* Challenge63.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge63.swift; sourceTree = "<group>"; };
 		BE01AD102ACAAD3C00AA69AA /* Challenge64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge64.swift; sourceTree = "<group>"; };
+		BE01AD162ACBBF7000AA69AA /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE01AD182ACBBF7000AA69AA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BE0B0EEE2AAE42DD00ABB961 /* HWSChallenge21_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge21_Swift.swift; sourceTree = "<group>"; };
 		BE26410C2AB22DA2005DEEA2 /* HWSChallenge22_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenge22_ObjC.h; sourceTree = "<group>"; };
 		BE26410D2AB22DA2005DEEA2 /* HWSChallenge22_ObjC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenge22_ObjC.m; sourceTree = "<group>"; };
@@ -250,7 +262,7 @@
 		BEAFE5AA2AC4421000E6B098 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BEAFE5AE2AC4487D00E6B098 /* Challenge39.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge39.swift; sourceTree = "<group>"; };
 		BEAFE5B02AC449D300E6B098 /* Challenge40.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge40.swift; sourceTree = "<group>"; };
-		BEBA1E6E2A9DF99400F8815F /* Challenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Challenges; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBA1E6E2A9DF99400F8815F /* SwiftCodingChallenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftCodingChallenges; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBA1E802A9E007200F8815F /* NPChallengeSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPChallengeSolver.h; sourceTree = "<group>"; };
 		BEBA1E812A9E007200F8815F /* NPChallengeSolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPChallengeSolver.m; sourceTree = "<group>"; };
 		BEBA1E832A9E009F00F8815F /* NPChallenge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPChallenge.h; sourceTree = "<group>"; };
@@ -314,6 +326,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BE01AD132ACBBF7000AA69AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEBA1E6B2A9DF99400F8815F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,6 +343,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE01AD172ACBBF7000AA69AA /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				BE01AD182ACBBF7000AA69AA /* main.cpp */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
 		BE42DD052AB9D23800DAB8CB /* HWSChallenge33 */ = {
 			isa = PBXGroup;
 			children = (
@@ -449,7 +476,8 @@
 		BEBA1E652A9DF99400F8815F = {
 			isa = PBXGroup;
 			children = (
-				BEBA1E702A9DF99400F8815F /* Challenges */,
+				BEBA1E702A9DF99400F8815F /* Swift Coding Challenges */,
+				BE01AD172ACBBF7000AA69AA /* LeetCode */,
 				BEBA1E6F2A9DF99400F8815F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -457,28 +485,21 @@
 		BEBA1E6F2A9DF99400F8815F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEBA1E6E2A9DF99400F8815F /* Challenges */,
+				BEBA1E6E2A9DF99400F8815F /* SwiftCodingChallenges */,
+				BE01AD162ACBBF7000AA69AA /* LeetCode */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BEBA1E702A9DF99400F8815F /* Challenges */ = {
-			isa = PBXGroup;
-			children = (
-				BEBA1E792A9DFAB200F8815F /* Common */,
-				BEBA1E782A9DFA4400F8815F /* HWS */,
-				BEAFE5AA2AC4421000E6B098 /* main.swift */,
-			);
-			path = Challenges;
-			sourceTree = "<group>";
-		};
-		BEBA1E782A9DFA4400F8815F /* HWS */ = {
+		BEBA1E702A9DF99400F8815F /* Swift Coding Challenges */ = {
 			isa = PBXGroup;
 			children = (
 				BEAFE5912AC4048B00E6B098 /* 1-37 */,
 				BEAFE5922AC43FA100E6B098 /* 38-64 */,
+				BEBA1E792A9DFAB200F8815F /* Common */,
+				BEAFE5AA2AC4421000E6B098 /* main.swift */,
 			);
-			path = HWS;
+			path = "Swift Coding Challenges";
 			sourceTree = "<group>";
 		};
 		BEBA1E792A9DFAB200F8815F /* Common */ = {
@@ -722,11 +743,39 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		BE01AD1D2ACBC3AE00AA69AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		BEBA1E6D2A9DF99400F8815F /* Challenges */ = {
+		BE01AD152ACBBF7000AA69AA /* LeetCode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEBA1E752A9DF99400F8815F /* Build configuration list for PBXNativeTarget "Challenges" */;
+			buildConfigurationList = BE01AD1A2ACBBF7000AA69AA /* Build configuration list for PBXNativeTarget "LeetCode" */;
 			buildPhases = (
+				BE01AD122ACBBF7000AA69AA /* Sources */,
+				BE01AD132ACBBF7000AA69AA /* Frameworks */,
+				BE01AD142ACBBF7000AA69AA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeetCode;
+			productName = LeetCode;
+			productReference = BE01AD162ACBBF7000AA69AA /* LeetCode */;
+			productType = "com.apple.product-type.tool";
+		};
+		BEBA1E6D2A9DF99400F8815F /* SwiftCodingChallenges */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEBA1E752A9DF99400F8815F /* Build configuration list for PBXNativeTarget "SwiftCodingChallenges" */;
+			buildPhases = (
+				BE01AD1D2ACBC3AE00AA69AA /* Headers */,
 				BEBA1E6A2A9DF99400F8815F /* Sources */,
 				BEBA1E6B2A9DF99400F8815F /* Frameworks */,
 				BEBA1E6C2A9DF99400F8815F /* CopyFiles */,
@@ -735,9 +784,9 @@
 			);
 			dependencies = (
 			);
-			name = Challenges;
+			name = SwiftCodingChallenges;
 			productName = Challenges;
-			productReference = BEBA1E6E2A9DF99400F8815F /* Challenges */;
+			productReference = BEBA1E6E2A9DF99400F8815F /* SwiftCodingChallenges */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -749,6 +798,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					BE01AD152ACBBF7000AA69AA = {
+						CreatedOnToolsVersion = 15.0;
+					};
 					BEBA1E6D2A9DF99400F8815F = {
 						CreatedOnToolsVersion = 14.3.1;
 						LastSwiftMigration = 1430;
@@ -768,18 +820,27 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEBA1E6D2A9DF99400F8815F /* Challenges */,
+				BEBA1E6D2A9DF99400F8815F /* SwiftCodingChallenges */,
+				BE01AD152ACBBF7000AA69AA /* LeetCode */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BE01AD122ACBBF7000AA69AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE01AD192ACBBF7000AA69AA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEBA1E6A2A9DF99400F8815F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE5748C32AA334E8001E54C6 /* HWSChallenge04_Swift.swift in Sources */,
 				BE473AD72AA789CA00F4FEFF /* HWSChallenge12_ObjC.m in Sources */,
+				BE5748C32AA334E8001E54C6 /* HWSChallenge04_Swift.swift in Sources */,
 				BE5748C62AA33557001E54C6 /* String+FuzzyContains.swift in Sources */,
 				BEEDCA4C2AB4FE82003B1CD3 /* HWSChallenge27_Swift.swift in Sources */,
 				BEC4F4882AC69D8200C28721 /* BinaryTree.swift in Sources */,
@@ -899,6 +960,34 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		BE01AD1B2ACBBF7000AA69AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62VPKU8FKF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE01AD1C2ACBBF7000AA69AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62VPKU8FKF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		BEBA1E732A9DF99400F8815F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1023,7 +1112,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Challenges/Common/Challenges-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift Coding Challenges/Common/Challenges-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1039,7 +1128,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				RUN_CLANG_STATIC_ANALYZER = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Challenges/Common/Challenges-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift Coding Challenges/Common/Challenges-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -1047,6 +1136,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BE01AD1A2ACBBF7000AA69AA /* Build configuration list for PBXNativeTarget "LeetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE01AD1B2ACBBF7000AA69AA /* Debug */,
+				BE01AD1C2ACBBF7000AA69AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BEBA1E692A9DF99400F8815F /* Build configuration list for PBXProject "Challenges" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1056,7 +1154,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEBA1E752A9DF99400F8815F /* Build configuration list for PBXNativeTarget "Challenges" */ = {
+		BEBA1E752A9DF99400F8815F /* Build configuration list for PBXNativeTarget "SwiftCodingChallenges" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEBA1E762A9DF99400F8815F /* Debug */,
