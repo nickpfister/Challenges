@@ -9,6 +9,7 @@
 #include <string>
 #include <unordered_map>
 #include <cassert>
+#include <iostream>
 
 int lengthOfLongestSubstring(std::string s) {
     auto lastSeen = std::unordered_map<char, int>();
@@ -42,6 +43,8 @@ int lengthOfLongestSubstring(std::string s) {
 }
 
 void problem3() {
-    //assert(lengthOfLongestSubstring("dvdf")==3);
+    assert(lengthOfLongestSubstring("dvdf")==3);
     assert(lengthOfLongestSubstring("tmmzuxt")==5);
+    
+    std::cout<<"Problem 3 solved!"<<std::endl;
 }
