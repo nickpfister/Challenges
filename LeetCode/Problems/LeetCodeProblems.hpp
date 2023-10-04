@@ -9,5 +9,6 @@
 #define LeetCodeProblems_hpp
 
 #include "Problem1.hpp"
+#include "Problem2.hpp"
 
 #endif /* LeetCodeProblems_hpp */

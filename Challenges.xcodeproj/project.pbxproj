@@ -93,6 +93,7 @@
 		BEBA1E922A9F485600F8815F /* HWSChallenge02_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E912A9F485600F8815F /* HWSChallenge02_ObjC.m */; };
 		BEBA1E942A9F4B1200F8815F /* HWSChallenge02_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E932A9F4B1200F8815F /* HWSChallenge02_Swift.swift */; };
 		BEBEC0682ACC4DD600AA9B80 /* Problem1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEBEC0662ACC4DD600AA9B80 /* Problem1.cpp */; };
+		BEBEC06F2ACD71B700AA9B80 /* Problem2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEBEC06D2ACD71B700AA9B80 /* Problem2.cpp */; };
 		BEC4F4842AC6873C00C28721 /* Challenge44.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC4F4832AC6873C00C28721 /* Challenge44.swift */; };
 		BEC4F4862AC68BBA00C28721 /* Challenge54.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC4F4852AC68BBA00C28721 /* Challenge54.swift */; };
 		BEC4F4882AC69D8200C28721 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC4F4872AC69D8200C28721 /* BinaryTree.swift */; };
@@ -278,6 +279,8 @@
 		BEBEC0662ACC4DD600AA9B80 /* Problem1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Problem1.cpp; sourceTree = "<group>"; };
 		BEBEC0672ACC4DD600AA9B80 /* Problem1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Problem1.hpp; sourceTree = "<group>"; };
 		BEBEC0692ACC50BD00AA9B80 /* LeetCodeProblems.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LeetCodeProblems.hpp; sourceTree = "<group>"; };
+		BEBEC06D2ACD71B700AA9B80 /* Problem2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Problem2.cpp; sourceTree = "<group>"; };
+		BEBEC06E2ACD71B700AA9B80 /* Problem2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Problem2.hpp; sourceTree = "<group>"; };
 		BEC4F4832AC6873C00C28721 /* Challenge44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge44.swift; sourceTree = "<group>"; };
 		BEC4F4852AC68BBA00C28721 /* Challenge54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge54.swift; sourceTree = "<group>"; };
 		BEC4F4872AC69D8200C28721 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
@@ -350,10 +353,9 @@
 		BE01AD172ACBBF7000AA69AA /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				BEBEC0692ACC50BD00AA9B80 /* LeetCodeProblems.hpp */,
 				BE01AD182ACBBF7000AA69AA /* main.cpp */,
-				BEBEC0662ACC4DD600AA9B80 /* Problem1.cpp */,
-				BEBEC0672ACC4DD600AA9B80 /* Problem1.hpp */,
+				BEBEC0712ACD726B00AA9B80 /* Common */,
+				BEBEC0702ACD726200AA9B80 /* Problems */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -501,10 +503,10 @@
 		BEBA1E702A9DF99400F8815F /* Swift Coding Challenges */ = {
 			isa = PBXGroup;
 			children = (
+				BEAFE5AA2AC4421000E6B098 /* main.swift */,
 				BEAFE5912AC4048B00E6B098 /* 1-37 */,
 				BEAFE5922AC43FA100E6B098 /* 38-64 */,
 				BEBA1E792A9DFAB200F8815F /* Common */,
-				BEAFE5AA2AC4421000E6B098 /* main.swift */,
 			);
 			path = "Swift Coding Challenges";
 			sourceTree = "<group>";
@@ -649,6 +651,25 @@
 				BEAFE58B2AC3FC6400E6B098 /* HWSChallenge37_Swift.swift */,
 			);
 			path = Swift;
+			sourceTree = "<group>";
+		};
+		BEBEC0702ACD726200AA9B80 /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				BEBEC0692ACC50BD00AA9B80 /* LeetCodeProblems.hpp */,
+				BEBEC0662ACC4DD600AA9B80 /* Problem1.cpp */,
+				BEBEC0672ACC4DD600AA9B80 /* Problem1.hpp */,
+				BEBEC06D2ACD71B700AA9B80 /* Problem2.cpp */,
+				BEBEC06E2ACD71B700AA9B80 /* Problem2.hpp */,
+			);
+			path = Problems;
+			sourceTree = "<group>";
+		};
+		BEBEC0712ACD726B00AA9B80 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		BEC4F48F2AC6B9D900C28721 /* BinaryTrees */ = {
@@ -840,6 +861,7 @@
 			files = (
 				BE01AD192ACBBF7000AA69AA /* main.cpp in Sources */,
 				BEBEC0682ACC4DD600AA9B80 /* Problem1.cpp in Sources */,
+				BEBEC06F2ACD71B700AA9B80 /* Problem2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

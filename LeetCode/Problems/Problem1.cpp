@@ -7,6 +7,7 @@
 
 #include "Problem1.hpp"
 #include <iostream>
+#include <cassert>
 
 std::vector<int> twoSums(std::vector<int>& nums, int target) {
     std::unordered_map<int, int> map {};
@@ -34,5 +35,6 @@ void problem1() {
     auto expectedResult = std::vector<int> { 0, 1 };
     auto result = twoSums(nums, target);
 
-    std::cout << (twoSums(nums, target) == expectedResult);
+    assert(twoSums(nums, target) == expectedResult);
+    std::cout << "Problem 1 solved!" << std::endl;
 }

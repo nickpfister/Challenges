@@ -8,8 +8,6 @@
 #ifndef Problem1_hpp
 #define Problem1_hpp
 
-#include <stdio.h>
-
 void problem1();
 
 #endif /* Problem1_hpp */
