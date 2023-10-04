@@ -7,38 +7,41 @@
 
 #include "Problem3.hpp"
 #include <string>
-#include <unordered_set>
-#include <queue>
+#include <unordered_map>
 #include <cassert>
 
 int lengthOfLongestSubstring(std::string s) {
-    auto currentSet = std::unordered_set<char>();
-    auto queue = std::queue<char>();
+    auto lastSeen = std::unordered_map<char, int>();
     int longestLength {0};
     int currentLength {0};
+    auto count = s.size();
     
-    for(char& c : s) {
-        if(currentSet.contains(c)) {
-            char front;
-            do {
-                front = queue.front();
-                queue.pop();
-                currentLength--;
-                currentSet.erase(front);
-            } while (front != c);
+    for(auto i = 0; i < count; ++i) {
+        char c = s[i];
+        
+        if(lastSeen.contains(c)) {
+            // Decrement by 1 to reduce nesting
+            int length = i - lastSeen[c] - 1;
+            
+            // Only assign if last seen is less than
+            // the current length
+            if (currentLength > length) {
+                currentLength = length;
+            }
         }
         
-        currentSet.insert(c);
-        queue.push(c);
         currentLength++;
         if(currentLength > longestLength) {
             longestLength = currentLength;
         }
+        
+        lastSeen[c] = i;
     }
     
     return longestLength;
 }
 
 void problem3() {
-    assert(lengthOfLongestSubstring("dvdf")==3);
+    //assert(lengthOfLongestSubstring("dvdf")==3);
+    assert(lengthOfLongestSubstring("tmmzuxt")==5);
 }
