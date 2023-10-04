@@ -94,6 +94,7 @@
 		BEBA1E942A9F4B1200F8815F /* HWSChallenge02_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA1E932A9F4B1200F8815F /* HWSChallenge02_Swift.swift */; };
 		BEBEC0682ACC4DD600AA9B80 /* Problem1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEBEC0662ACC4DD600AA9B80 /* Problem1.cpp */; };
 		BEBEC06F2ACD71B700AA9B80 /* Problem2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEBEC06D2ACD71B700AA9B80 /* Problem2.cpp */; };
+		BEBEC0742ACD826000AA9B80 /* Problem3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEBEC0722ACD826000AA9B80 /* Problem3.cpp */; };
 		BEC4F4842AC6873C00C28721 /* Challenge44.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC4F4832AC6873C00C28721 /* Challenge44.swift */; };
 		BEC4F4862AC68BBA00C28721 /* Challenge54.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC4F4852AC68BBA00C28721 /* Challenge54.swift */; };
 		BEC4F4882AC69D8200C28721 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC4F4872AC69D8200C28721 /* BinaryTree.swift */; };
@@ -281,6 +282,8 @@
 		BEBEC0692ACC50BD00AA9B80 /* LeetCodeProblems.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LeetCodeProblems.hpp; sourceTree = "<group>"; };
 		BEBEC06D2ACD71B700AA9B80 /* Problem2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Problem2.cpp; sourceTree = "<group>"; };
 		BEBEC06E2ACD71B700AA9B80 /* Problem2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Problem2.hpp; sourceTree = "<group>"; };
+		BEBEC0722ACD826000AA9B80 /* Problem3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Problem3.cpp; sourceTree = "<group>"; };
+		BEBEC0732ACD826000AA9B80 /* Problem3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Problem3.hpp; sourceTree = "<group>"; };
 		BEC4F4832AC6873C00C28721 /* Challenge44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge44.swift; sourceTree = "<group>"; };
 		BEC4F4852AC68BBA00C28721 /* Challenge54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge54.swift; sourceTree = "<group>"; };
 		BEC4F4872AC69D8200C28721 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
@@ -661,6 +664,8 @@
 				BEBEC0672ACC4DD600AA9B80 /* Problem1.hpp */,
 				BEBEC06D2ACD71B700AA9B80 /* Problem2.cpp */,
 				BEBEC06E2ACD71B700AA9B80 /* Problem2.hpp */,
+				BEBEC0722ACD826000AA9B80 /* Problem3.cpp */,
+				BEBEC0732ACD826000AA9B80 /* Problem3.hpp */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -860,6 +865,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE01AD192ACBBF7000AA69AA /* main.cpp in Sources */,
+				BEBEC0742ACD826000AA9B80 /* Problem3.cpp in Sources */,
 				BEBEC0682ACC4DD600AA9B80 /* Problem1.cpp in Sources */,
 				BEBEC06F2ACD71B700AA9B80 /* Problem2.cpp in Sources */,
 			);
