@@ -95,6 +95,7 @@
 		BEBEC0682ACC4DD600AA9B80 /* Problem1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEBEC0662ACC4DD600AA9B80 /* Problem1.cpp */; };
 		BEBEC06F2ACD71B700AA9B80 /* Problem2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEBEC06D2ACD71B700AA9B80 /* Problem2.cpp */; };
 		BEBEC0742ACD826000AA9B80 /* Problem3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEBEC0722ACD826000AA9B80 /* Problem3.cpp */; };
+		BEBEC0772ACEC4D800AA9B80 /* Problem4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEBEC0752ACEC4D800AA9B80 /* Problem4.cpp */; };
 		BEC4F4842AC6873C00C28721 /* Challenge44.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC4F4832AC6873C00C28721 /* Challenge44.swift */; };
 		BEC4F4862AC68BBA00C28721 /* Challenge54.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC4F4852AC68BBA00C28721 /* Challenge54.swift */; };
 		BEC4F4882AC69D8200C28721 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC4F4872AC69D8200C28721 /* BinaryTree.swift */; };
@@ -284,6 +285,8 @@
 		BEBEC06E2ACD71B700AA9B80 /* Problem2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Problem2.hpp; sourceTree = "<group>"; };
 		BEBEC0722ACD826000AA9B80 /* Problem3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Problem3.cpp; sourceTree = "<group>"; };
 		BEBEC0732ACD826000AA9B80 /* Problem3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Problem3.hpp; sourceTree = "<group>"; };
+		BEBEC0752ACEC4D800AA9B80 /* Problem4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Problem4.cpp; sourceTree = "<group>"; };
+		BEBEC0762ACEC4D800AA9B80 /* Problem4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Problem4.hpp; sourceTree = "<group>"; };
 		BEC4F4832AC6873C00C28721 /* Challenge44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge44.swift; sourceTree = "<group>"; };
 		BEC4F4852AC68BBA00C28721 /* Challenge54.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge54.swift; sourceTree = "<group>"; };
 		BEC4F4872AC69D8200C28721 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
@@ -666,6 +669,8 @@
 				BEBEC06E2ACD71B700AA9B80 /* Problem2.hpp */,
 				BEBEC0722ACD826000AA9B80 /* Problem3.cpp */,
 				BEBEC0732ACD826000AA9B80 /* Problem3.hpp */,
+				BEBEC0752ACEC4D800AA9B80 /* Problem4.cpp */,
+				BEBEC0762ACEC4D800AA9B80 /* Problem4.hpp */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -866,6 +871,7 @@
 			files = (
 				BE01AD192ACBBF7000AA69AA /* main.cpp in Sources */,
 				BEBEC0742ACD826000AA9B80 /* Problem3.cpp in Sources */,
+				BEBEC0772ACEC4D800AA9B80 /* Problem4.cpp in Sources */,
 				BEBEC0682ACC4DD600AA9B80 /* Problem1.cpp in Sources */,
 				BEBEC06F2ACD71B700AA9B80 /* Problem2.cpp in Sources */,
 			);

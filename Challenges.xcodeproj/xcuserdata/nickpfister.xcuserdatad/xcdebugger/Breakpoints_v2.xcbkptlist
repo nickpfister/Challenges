@@ -3,4 +3,117 @@
    uuid = "3EC77D69-95D6-4244-BF96-48F99A41FC53"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D237CB4-84F9-4F5D-920B-7A91CB6B0764"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCode/Problems/Problem4.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "findMedianSortedArrays(nums1, nums2)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "1D237CB4-84F9-4F5D-920B-7A91CB6B0764 - add40ec149bb586c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findMedianSortedArrays(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt;&gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt;&gt;&amp;)"
+                  moduleName = "LeetCode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nickpfister/Documents/Projects/Challenges/LeetCode/Problems/Problem4.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "1D237CB4-84F9-4F5D-920B-7A91CB6B0764 - add40ec149bb582a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findMedianSortedArrays(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt;&gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt;&gt;&amp;)"
+                  moduleName = "LeetCode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nickpfister/Documents/Projects/Challenges/LeetCode/Problems/Problem4.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "1D237CB4-84F9-4F5D-920B-7A91CB6B0764 - add40ec149bb582a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findMedianSortedArrays(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt;&gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt;&gt;&amp;)"
+                  moduleName = "LeetCode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nickpfister/Documents/Projects/Challenges/LeetCode/Problems/Problem4.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05A24CB7-52D0-4929-9308-2F196F0E27A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCode/Problems/Problem4.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "findMedianSortedArrays(nums1, nums2)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "05A24CB7-52D0-4929-9308-2F196F0E27A8 - add40ec149bb5922"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findMedianSortedArrays(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt;&gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt;&gt;&amp;)"
+                  moduleName = "LeetCode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nickpfister/Documents/Projects/Challenges/LeetCode/Problems/Problem4.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "05A24CB7-52D0-4929-9308-2F196F0E27A8 - add40ec149bb5901"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findMedianSortedArrays(std::__1::vector&lt;int, std::__1::allocator&lt;int&gt;&gt;&amp;, std::__1::vector&lt;int, std::__1::allocator&lt;int&gt;&gt;&amp;)"
+                  moduleName = "LeetCode"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nickpfister/Documents/Projects/Challenges/LeetCode/Problems/Problem4.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "360">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
