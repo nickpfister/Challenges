@@ -47,5 +47,6 @@ double findMedianSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2) 
 void problem4(){
     std::vector<int> nums1 {2, 3, 4, 6, 7};
     std::vector<int> nums2 {1, 2, 3};
-    std::cout << findMedianSortedArrays(nums1, nums2);
+    assert(findMedianSortedArrays(nums1, nums2) == 3);
+    std::cout << "Problem 4 solved!" << std::endl;
 }
