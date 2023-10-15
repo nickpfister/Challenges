@@ -16,5 +16,6 @@
 #include "Problem6.hpp"
 #include "Problem7.hpp"
 #include "Problem88.hpp"
+#include "Problem104.hpp"
 
 #endif /* LeetCodeProblems_hpp */

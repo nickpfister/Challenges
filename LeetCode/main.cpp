@@ -16,5 +16,6 @@ int main(int argc, const char * argv[]) {
     problem6();
     problem7();
     problem88();
+    problem104();
     return 0;
 }

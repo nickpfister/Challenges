@@ -114,6 +114,7 @@
 		BEE969AD2ADA9090002EA1DC /* Problem6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEE969AB2ADA9090002EA1DC /* Problem6.cpp */; };
 		BEE969B02ADAA87F002EA1DC /* Problem7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEE969AE2ADAA87F002EA1DC /* Problem7.cpp */; };
 		BEE969BE2ADB969E002EA1DC /* Problem88.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEE969BC2ADB969E002EA1DC /* Problem88.cpp */; };
+		BEE969C12ADC1A0C002EA1DC /* Problem104.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEE969BF2ADC1A0C002EA1DC /* Problem104.cpp */; };
 		BEEDCA2C2AB45784003B1CD3 /* HWSChallenge25_Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEDCA2B2AB45784003B1CD3 /* HWSChallenge25_Swift.swift */; };
 		BEEDCA2F2AB459F4003B1CD3 /* HWSChallenges.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEDCA2E2AB459F4003B1CD3 /* HWSChallenges.m */; };
 		BEEDCA322AB48983003B1CD3 /* HWSChallenge26_ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEDCA312AB48983003B1CD3 /* HWSChallenge26_ObjC.m */; };
@@ -314,6 +315,8 @@
 		BEE969AF2ADAA87F002EA1DC /* Problem7.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Problem7.hpp; sourceTree = "<group>"; };
 		BEE969BC2ADB969E002EA1DC /* Problem88.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Problem88.cpp; sourceTree = "<group>"; };
 		BEE969BD2ADB969E002EA1DC /* Problem88.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Problem88.hpp; sourceTree = "<group>"; };
+		BEE969BF2ADC1A0C002EA1DC /* Problem104.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Problem104.cpp; sourceTree = "<group>"; };
+		BEE969C02ADC1A0C002EA1DC /* Problem104.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Problem104.hpp; sourceTree = "<group>"; };
 		BEEDCA2B2AB45784003B1CD3 /* HWSChallenge25_Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWSChallenge25_Swift.swift; sourceTree = "<group>"; };
 		BEEDCA2D2AB459F4003B1CD3 /* HWSChallenges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSChallenges.h; sourceTree = "<group>"; };
 		BEEDCA2E2AB459F4003B1CD3 /* HWSChallenges.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSChallenges.m; sourceTree = "<group>"; };
@@ -691,6 +694,8 @@
 				BEE969AF2ADAA87F002EA1DC /* Problem7.hpp */,
 				BEE969BC2ADB969E002EA1DC /* Problem88.cpp */,
 				BEE969BD2ADB969E002EA1DC /* Problem88.hpp */,
+				BEE969BF2ADC1A0C002EA1DC /* Problem104.cpp */,
+				BEE969C02ADC1A0C002EA1DC /* Problem104.hpp */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -890,6 +895,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEE969AD2ADA9090002EA1DC /* Problem6.cpp in Sources */,
+				BEE969C12ADC1A0C002EA1DC /* Problem104.cpp in Sources */,
 				BE01AD192ACBBF7000AA69AA /* main.cpp in Sources */,
 				BEBEC0742ACD826000AA9B80 /* Problem3.cpp in Sources */,
 				BEBEC0772ACEC4D800AA9B80 /* Problem4.cpp in Sources */,
